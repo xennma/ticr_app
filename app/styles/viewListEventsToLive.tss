@@ -1,0 +1,32 @@
+"#table":{
+	top: '0dp'
+},
+"#container":{
+	top: '0dp'
+},
+"#messageTurn":{
+	top:'0dp',
+	left: '0dp',
+	height: "10%",
+	borderColor: '#c3c3c3',
+	backgroundImage: '/light-diagonal-strips.png',
+	backgroundRepeat: true,
+	borderWidth: 0	
+},
+"#description":
+{
+	font: {
+	   	fontSize:'12dp'
+		},
+	height:'auto',
+	left:'3%',
+	top:'9%',
+	width: "94%",
+	height : "90%",
+	color: 'gray'
+},
+"#description[platform=ios formFactor=tablet]": { 
+    font: {
+		fontSize: '24dp'
+	},
+}

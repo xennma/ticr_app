@@ -1,0 +1,138 @@
+"#vp": {
+ 	top : '25dp',
+    autoplay : true,
+    backgroundColor : "black",
+    height : '55%',
+    width : '95%',
+    zIndex: 10
+},
+"#data":{
+	top: "61%",
+	height: "21%"
+}
+"#author": {
+	font: {
+	   	fontSize:'16dp',
+		fontWeight:'bold'
+		},
+	height:'auto',
+	left:'5dp',
+	top:'5dp',
+	color:'#717777'
+},
+"#views":{
+	font: {
+	   	fontSize:'14dp'
+		},
+	height:'auto',
+	left:'5dp',
+	top:'45dp',
+	color:'#717777'
+},
+"#videos":{
+	font: {
+	   	fontSize:'14dp'
+		},
+	height:'auto',
+	left:'5dp',
+	top:'65dp',
+	color:'#717777'
+},
+"#labelLink":{
+	font: {
+	   	fontSize:'13dp',
+	   	fontWeight:'bold'
+		},
+	height:'90%',
+	bottom:'8%',
+	width: '98%',
+	borderRadius: 4,
+	backgroundColor:'#745DA8',
+	color: 'white',
+	textAlign: 'center'	
+},
+"#links":{
+	top:'83%',
+	left: '0dp',
+	height: '30dp'
+},
+"#event":{
+	top:'0',
+	left: '0dp',
+	width: '32%',
+	height: '25dp'
+},
+"#video":{
+	top:'0',
+	left: '33%',
+	width: '32%',
+	height: '25dp'
+},
+"#campaign":{
+	top:'0',
+	left: '66%',
+	width: '32%',
+	height: '25dp'
+},
+"#cover": {
+ 	top : '25dp',
+    height : '55%',
+    width : '95%',
+    zIndex: 20
+},
+"#author[platform=ios formFactor=tablet]": { 
+    font: {
+	   	fontSize:'30dp'
+		}		
+},
+"#labelLink[platform=ios formFactor=tablet]": { 
+    font: {
+	   	fontSize:'25dp'
+		}	
+},
+"#views[platform=ios formFactor=tablet]": { 
+    font: {
+	   	fontSize:'26dp'
+		},
+	top : '105dp'	
+},
+"#videos[platform=ios formFactor=tablet]": { 
+    font: {
+	   	fontSize:'26dp'
+		},
+	top: '135dp'	
+},
+"#links[platform=ios formFactor=tablet]": { 
+	height: '50dp'
+},
+"#event[platform=ios formFactor=tablet]": { 
+	height: '45dp'
+},
+"#video[platform=ios formFactor=tablet]": { 
+	height: '45dp'
+},
+"#campaign[platform=ios formFactor=tablet]": { 
+	height: '45dp'
+},
+"#reportView":{
+		top: '62%',
+		left: '3%',
+		width: '94%',
+		height: '6%'
+	},
+	"#reportButtom":{
+		height:'90%',
+		width: '25%',
+		borderRadius: 4,
+		top: '0%',
+		right:'0%',
+		backgroundColor:'#e4473e',
+	},
+		"#report": {
+			font: {
+			   	fontSize:'13dp',
+			   	fontWeight: 'bold'
+				},			
+			color: 'white',
+			textAlign: 'center'			
+		}

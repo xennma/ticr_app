@@ -1,0 +1,6 @@
+<Alloy>
+  <TableViewRow id="rowCategories">
+    <Label id="title"/>
+    <ImageView class="categories-icon" id="imageCat" />
+  </TableViewRow>
+</Alloy>

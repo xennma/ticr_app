@@ -1,0 +1,143 @@
+"#data": {
+	
+	separatorColor: "#fff"
+},
+"#Navigation":{
+	height: '8%',
+	top: '0%',
+	backgroundColor: '#f2f2f2',
+	backgroundImage: '/light-diagonal-strips.png',
+	backgroundRepeat: true
+	
+},
+"#current":{
+	left: '19%'
+},
+"#actionIos": {
+	zIndex: 10,
+	height: '100%'
+	},
+"#topNav":{
+	height: '11%',
+	top: '8%',
+	width: '100%',
+	left: '0%'
+	},
+"#scrollableView": {
+	height: '81%',
+	top: '19%'
+	},
+"#NavContainer": {
+	width: 500,
+	height: '86%',
+	top: '0%'
+	},
+"#menuBar":{
+	height: '12%',
+	bottom: '2%'
+	},
+".menuBarBottomBorder":{
+	height: '2%',
+	backgroundColor: '#e4473e',
+	width: '100%',
+	bottom: '0%'
+	},
+"#categories":{
+	width: '20%',
+	bottom: '0%',
+	left:'0%'
+	},
+"#videos":{
+	bottom: '0%',
+	width: '20%',
+	left:'20%'
+	},
+"#campaigns":{
+	width: '20%',
+	bottom: '0%',
+	left:'40%'
+	},
+"#upcoming":{
+	width: '20%',
+	bottom: '0%',
+	left:'60%'
+	},
+
+"#artists":{
+	width: '20%',
+	bottom: '0%',
+	left:'80%'
+	},
+"#barra": {
+	height:'100%',
+	width: '20%',
+	backgroundColor: '#e4473e',
+	bottom: '0%',
+	left: '0%'
+	},
+
+
+".navigationBottomBorder":{
+	//height: '5%',
+	//backgroundColor: '#d0d0d0',
+	//width: '100%',
+	//bottom: 0
+	height: '2%',
+	backgroundColor: '#c6c6c6',
+	width: '100%',
+	bottom: '0%'
+	},
+"#barContainer": {
+	width: '100%',
+	height: '100%',
+	bottom: '0%',
+	left: '0%'
+	},
+".navLabel":{
+	textAlign: 'center',
+	color: '#3b3b3b',
+	font: {
+		fontSize: 14,
+		fontFamily: 'Helvetica Neue'
+		
+	},
+	bottom: '20%'
+},
+".navItem":{
+	height: '100%'
+	},
+".listSeparator": {
+	width: 1,
+	backgroundColor: '#dfdfdf',
+	right: 0,
+	top: '12%',
+	height: '76%'
+},
+"#backArrow":{
+	left: '0%',
+	width: '5%',
+	font: {
+		fontSize: '20dp'
+	},
+	color: 'gray'
+	},
+"#iconSmall":{
+	left: '5%',
+	width: '12%',
+	height: '90%',
+	top: '5%',
+	//backgroundImage:'/Icon-Small.png',
+	//backgroundRepeat: false
+},
+"#current[platform=ios formFactor=tablet]": { 
+    font: {
+		fontSize: '30dp'
+	},
+},
+".navLabel[platform=ios formFactor=tablet]": { 
+    font: {
+		fontSize: '26dp'
+	},
+}
+
+

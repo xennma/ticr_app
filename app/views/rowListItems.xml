@@ -1,0 +1,11 @@
+<Alloy>
+  <TableViewRow id="rowListItems">
+    <Label id="title"/>
+    <Label id="author"/>
+    <Label id="footMessage"/>
+    <ImageView id="image"/>
+    
+    	<Label id="live" >Live</Label>
+       
+  </TableViewRow>
+</Alloy>

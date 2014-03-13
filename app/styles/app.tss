@@ -1,0 +1,156 @@
+"Window": {
+	backgroundColor: "#fff",
+	title: Alloy.Globals.NAME_PAGE
+},
+
+".menuBarBottomBorder":{
+	height: '2%',
+	backgroundColor: '#e4473e',
+	width: '100%',
+	bottom: '0%'
+	},
+
+
+"#activity":{
+	color: '#6cb1d5',
+	font: {
+	  	fontFamily:'Helvetica Neue', 
+	  	fontSize:'20dp', 
+	  	fontWeight:'bold'
+	  	},
+	message: 'Loading...',  
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	zIndex: 100
+},
+"#browse":{
+	bottom: '0dp',
+   	left: '0dp',
+   	width:'33%',
+   	backgroundColor: '#f5f5f5',
+   	height: '100%'
+},
+"#artist":{
+	bottom: '0dp',
+   	left: '33%',
+   	width:'33%',
+   	backgroundColor: '#f5f5f5',
+   	height: '100%'	
+},
+"#stage":{
+	bottom: '0dp',
+   	width:'33%',
+   	left: '66%',
+   	backgroundColor: '#f5f5f5',
+   	height: '100%'
+},
+
+".viewsLabel":{
+	textAlign: 'center',
+	color: '#000000',
+	font: {
+		fontSize: 10,
+		fontFamily: 'Helvetica Neue'
+	},
+	bottom: '0dp'
+
+},
+"#campaignsScreen": {
+	backgroundColor: '#f2f2f2'
+	}
+
+
+"#feedWin": {
+	height: "100%",
+	top: '0%',
+	width: '100%'
+},
+
+/*"#tabs":{
+	width: '100%',
+	bottom: '0%',
+	height: '13%'
+	},*/
+
+"#vp": {
+ 	top : '2%',
+    autoplay : true,
+    backgroundColor : "black",
+    height : '50%',
+    width : '95%'
+},
+"#actionIos": {
+	zIndex: 10,
+	height: '100%'
+	},
+"#index": {
+	backgroundColor: "black"
+	},
+"#rowCategories":{
+	height: '30dp',
+	touchEnabled: true,				 	
+	hasChild: true
+},
+
+"#progressBar": {
+	width: '90%',
+	left: '5%'
+	},
+	"#porcentaje": {
+		top: '0%',
+		height: '100%',
+		
+		left: '0%',
+		backgroundColor: '#745DA8',
+		zIndex: 10,
+		borderRadius: 4,
+		backgroundImage: '/bar-stripes.png',
+		backgroundRepeat: true
+		
+		},
+	"#campaignBar": {
+		top: '0%',
+		height: '100%',
+		width: '100%',
+		left: '0%',
+		backgroundColor: '#f2f2f2',
+		borderWidth: 1,
+		borderColor: '#c3c3c3',
+		borderRadius: 4,
+		backgroundImage: '/light-diagonal-strips.png',
+		backgroundRepeat: true	
+	},
+"#bottomLogin":{
+	top:'10%',
+	right: '5dp',
+	width: '20%',
+	height: '80%',
+	zIndex: 100
+},
+"#textBottom":{
+	font: {
+	   	fontSize:'12dp',
+	   	fontWeight:'bold'
+		},
+	height:'90%',
+	bottom:'8%',
+	width: '98%',
+	borderRadius: 4,
+	backgroundColor:'#745DA8',
+	color: 'white',
+	textAlign: 'center'	
+},
+"#textBottom[platform=ios formFactor=tablet]": { 
+    font: {
+		fontSize: '24dp'
+	},
+},
+"#title[platform=ios formFactor=tablet]": { 
+    font: {
+		fontSize: '24dp'
+	},
+}
+
+		
+
+

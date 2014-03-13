@@ -1,0 +1,637 @@
+Logfile initialized
+[INFO] logfile = /home/fabian/mobile/liveonstage/build.log
+[DEBUG] /home/fabian/.titanium/mobilesdk/linux/3.1.3.GA/android/builder.py install LiveOnStage /home/fabian/sdk-android /home/fabian/mobile/liveonstage com.xenn.liveonstage 6
+[INFO] plugin=/home/fabian/.titanium/plugins/ti.alloy/1.0/plugin.py
+[INFO] Detected compiler plugin: ti.alloy/1.0
+[INFO] Titanium SDK version: 3.1.3 (09/18/13 12:00 222f4d1)
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.003448 seconds on emulator to get ready
+[DEBUG] com.xenn.liveonstage installed? False
+[INFO] Copying CommonJS modules...
+[INFO] Copying project resources..
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/actionBarButtoms.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/actionBarButtoms.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/styles/tileCampaigns.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/styles/tileCampaigns.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/styles/index.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/styles/index.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/styles/viewListOfProfile.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/styles/viewListOfProfile.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/styles/viewArtists.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/styles/viewArtists.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/styles/rowListItems.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/styles/rowListItems.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/styles/viewVideo.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/styles/viewVideo.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/styles/modalViewVideoLive.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/styles/modalViewVideoLive.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/styles/calendar.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/styles/calendar.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/styles/viewListEventsToLive.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/styles/viewListEventsToLive.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/styles/rowCategories.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/styles/rowCategories.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/styles/camera.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/styles/camera.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/styles/rowEmpty.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/styles/rowEmpty.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/styles/feed.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/styles/feed.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/styles/login.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/styles/login.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/styles/rowListProfile.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/styles/rowListProfile.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/styles/rowMore.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/styles/rowMore.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/styles/viewMore.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/styles/viewMore.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/styles/viewCampaign.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/styles/viewCampaign.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/styles/viewEvent.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/styles/viewEvent.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/styles/viewProfile.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/styles/viewProfile.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/sync/util.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/sync/util.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/sync/sql.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/sync/sql.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/sync/properties.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/sync/properties.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/sync/localStorage.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/sync/localStorage.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/underscore.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/underscore.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/widget.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/widget.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/backbone.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/backbone.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/controllers/tileCampaigns.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/controllers/tileCampaigns.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/controllers/index.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/controllers/index.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/controllers/BaseController.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/controllers/BaseController.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/controllers/viewListOfProfile.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/controllers/viewListOfProfile.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/controllers/viewArtists.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/controllers/viewArtists.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/controllers/rowListItems.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/controllers/rowListItems.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/controllers/viewVideo.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/controllers/viewVideo.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/controllers/modalViewVideoLive.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/controllers/modalViewVideoLive.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/controllers/calendar.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/controllers/calendar.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/controllers/viewListEventsToLive.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/controllers/viewListEventsToLive.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/controllers/rowCategories.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/controllers/rowCategories.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/controllers/camera.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/controllers/camera.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/controllers/rowEmpty.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/controllers/rowEmpty.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/controllers/feed.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/controllers/feed.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/controllers/login.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/controllers/login.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/controllers/rowListProfile.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/controllers/rowListProfile.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/controllers/rowMore.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/controllers/rowMore.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/controllers/viewMore.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/controllers/viewMore.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/controllers/viewCampaign.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/controllers/viewCampaign.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/controllers/viewEvent.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/controllers/viewEvent.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/controllers/viewProfile.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/controllers/viewProfile.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/alloy/constants.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/constants.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/app.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/app.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/android/alloy/CFG.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/alloy/CFG.js
+[TRACE] COPYING MODIFIED FILE: /home/fabian/mobile/liveonstage/Resources/dataExport.js => /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/dataExport.js
+[DEBUG] LiveView not enabled
+[TRACE] Generating Java Classes
+[DEBUG] Processing Android resource drawables
+[DEBUG] found special platform files dir = /home/fabian/mobile/liveonstage/platform/android
+[INFO] Copying platform-specific files ...
+[DEBUG] copying app icon: /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/Icon.png
+[DEBUG] generating theme.xml
+[DEBUG] found drawable-notlong-land-ldpi splash screen at /home/fabian/mobile/liveonstage/Resources/android/images/res-notlong-land-ldpi/default.png
+[DEBUG] copying /home/fabian/mobile/liveonstage/Resources/android/images/res-notlong-land-ldpi/default.png splash screen to /home/fabian/mobile/liveonstage/build/android/res/drawable-notlong-land-ldpi/background.png
+[DEBUG] found drawable-notlong-port-mdpi splash screen at /home/fabian/mobile/liveonstage/Resources/android/images/res-notlong-port-mdpi/default.png
+[DEBUG] copying /home/fabian/mobile/liveonstage/Resources/android/images/res-notlong-port-mdpi/default.png splash screen to /home/fabian/mobile/liveonstage/build/android/res/drawable-notlong-port-mdpi/background.png
+[DEBUG] found drawable-long-land-ldpi splash screen at /home/fabian/mobile/liveonstage/Resources/android/images/res-long-land-ldpi/default.png
+[DEBUG] copying /home/fabian/mobile/liveonstage/Resources/android/images/res-long-land-ldpi/default.png splash screen to /home/fabian/mobile/liveonstage/build/android/res/drawable-long-land-ldpi/background.png
+[DEBUG] found drawable-long-port-hdpi splash screen at /home/fabian/mobile/liveonstage/Resources/android/images/res-long-port-hdpi/default.png
+[DEBUG] copying /home/fabian/mobile/liveonstage/Resources/android/images/res-long-port-hdpi/default.png splash screen to /home/fabian/mobile/liveonstage/build/android/res/drawable-long-port-hdpi/background.png
+[DEBUG] found drawable-notlong-port-ldpi splash screen at /home/fabian/mobile/liveonstage/Resources/android/images/res-notlong-port-ldpi/default.png
+[DEBUG] copying /home/fabian/mobile/liveonstage/Resources/android/images/res-notlong-port-ldpi/default.png splash screen to /home/fabian/mobile/liveonstage/build/android/res/drawable-notlong-port-ldpi/background.png
+[DEBUG] found drawable-long-land-hdpi splash screen at /home/fabian/mobile/liveonstage/Resources/android/images/res-long-land-hdpi/default.png
+[DEBUG] copying /home/fabian/mobile/liveonstage/Resources/android/images/res-long-land-hdpi/default.png splash screen to /home/fabian/mobile/liveonstage/build/android/res/drawable-long-land-hdpi/background.png
+[DEBUG] found drawable-long-port-ldpi splash screen at /home/fabian/mobile/liveonstage/Resources/android/images/res-long-port-ldpi/default.png
+[DEBUG] copying /home/fabian/mobile/liveonstage/Resources/android/images/res-long-port-ldpi/default.png splash screen to /home/fabian/mobile/liveonstage/build/android/res/drawable-long-port-ldpi/background.png
+[DEBUG] found drawable-notlong-land-hdpi splash screen at /home/fabian/mobile/liveonstage/Resources/android/images/res-notlong-land-hdpi/default.png
+[DEBUG] copying /home/fabian/mobile/liveonstage/Resources/android/images/res-notlong-land-hdpi/default.png splash screen to /home/fabian/mobile/liveonstage/build/android/res/drawable-notlong-land-hdpi/background.png
+[DEBUG] found drawable-notlong-land-mdpi splash screen at /home/fabian/mobile/liveonstage/Resources/android/images/res-notlong-land-mdpi/default.png
+[DEBUG] copying /home/fabian/mobile/liveonstage/Resources/android/images/res-notlong-land-mdpi/default.png splash screen to /home/fabian/mobile/liveonstage/build/android/res/drawable-notlong-land-mdpi/background.png
+[DEBUG] found drawable-notlong-port-hdpi splash screen at /home/fabian/mobile/liveonstage/Resources/android/images/res-notlong-port-hdpi/default.png
+[DEBUG] copying /home/fabian/mobile/liveonstage/Resources/android/images/res-notlong-port-hdpi/default.png splash screen to /home/fabian/mobile/liveonstage/build/android/res/drawable-notlong-port-hdpi/background.png
+[DEBUG] found splash screen at /home/fabian/mobile/liveonstage/build/android/bin/assets/Resources/default.png
+[DEBUG] Added 'screenSize' to <activity android:configChanges> because targeted api level 17 is >= 13
+[TRACE] Writing out AndroidManifest.xml
+[DEBUG] adding /home/fabian/mobile/liveonstage/build/android/gen/com/xenn/liveonstage/R.java to javac build list
+[DEBUG] adding /home/fabian/mobile/liveonstage/build/android/gen/com/xenn/liveonstage/LiveonstageActivity.java to javac build list
+[DEBUG] adding /home/fabian/mobile/liveonstage/build/android/gen/com/xenn/liveonstage/LiveonstageApplication.java to javac build list
+[DEBUG] adding /home/fabian/mobile/liveonstage/build/android/gen/com/xenn/liveonstage/LiveonstageAppInfo.java to javac build list
+[DEBUG] Building Java Sources: "/home/fabian/mobile/liveonstage/build/android/gen/com/xenn/liveonstage/R.java" "/home/fabian/mobile/liveonstage/build/android/gen/com/xenn/liveonstage/LiveonstageActivity.java" "/home/fabian/mobile/liveonstage/build/android/gen/com/xenn/liveonstage/LiveonstageApplication.java" "/home/fabian/mobile/liveonstage/build/android/gen/com/xenn/liveonstage/LiveonstageAppInfo.java"
+[INFO] Compiling Android Resources... This could take some time
+[DEBUG] Android classes.dex built
+[DEBUG] creating unsigned apk: /home/fabian/mobile/liveonstage/build/android/bin/app-unsigned.apk
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/BaseController.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/calendar.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/camera.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/feed.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/index.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/login.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/modalViewVideoLive.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/rowCategories.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/rowEmpty.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/rowListItems.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/rowListProfile.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/rowMore.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/tileCampaigns.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/viewArtists.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/viewCampaign.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/viewEvent.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/viewListEventsToLive.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/viewListOfProfile.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/viewMore.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/viewProfile.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/viewVideo.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/calendar.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/camera.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/feed.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/index.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/login.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/modalViewVideoLive.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/rowCategories.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/rowEmpty.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/rowListItems.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/rowListProfile.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/rowMore.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/tileCampaigns.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/viewArtists.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/viewCampaign.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/viewEvent.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/viewListEventsToLive.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/viewListOfProfile.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/viewMore.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/viewProfile.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/viewVideo.js
+[DEBUG] from resource zip => assets/Resources/alloy/sync/localStorage.js
+[DEBUG] from resource zip => assets/Resources/alloy/sync/properties.js
+[DEBUG] from resource zip => assets/Resources/alloy/sync/sql.js
+[DEBUG] from resource zip => assets/Resources/alloy/sync/util.js
+[DEBUG] from resource zip => assets/Resources/alloy/CFG.js
+[DEBUG] from resource zip => assets/Resources/alloy/backbone.js
+[DEBUG] from resource zip => assets/Resources/alloy/constants.js
+[DEBUG] from resource zip => assets/Resources/alloy/underscore.js
+[DEBUG] from resource zip => assets/Resources/alloy/widget.js
+[DEBUG] from resource zip => assets/Resources/images/categories/all.jpg
+[DEBUG] from resource zip => assets/Resources/images/categories/alternative.jpg
+[DEBUG] from resource zip => assets/Resources/images/categories/bluegrass.jpg
+[DEBUG] from resource zip => assets/Resources/images/categories/blues.jpg
+[DEBUG] from resource zip => assets/Resources/images/categories/comedy.jpg
+[DEBUG] from resource zip => assets/Resources/images/categories/country.jpg
+[DEBUG] from resource zip => assets/Resources/images/categories/dance.jpg
+[DEBUG] from resource zip => assets/Resources/images/categories/disco.jpg
+[DEBUG] from resource zip => assets/Resources/images/categories/electronic.jpg
+[DEBUG] from resource zip => assets/Resources/images/categories/heavy metal.jpg
+[DEBUG] from resource zip => assets/Resources/images/categories/hip hop.jpg
+[DEBUG] from resource zip => assets/Resources/images/categories/house.jpg
+[DEBUG] from resource zip => assets/Resources/images/categories/jazz.jpg
+[DEBUG] from resource zip => assets/Resources/images/categories/latin.jpg
+[DEBUG] from resource zip => assets/Resources/images/categories/modern folk.jpg
+[DEBUG] from resource zip => assets/Resources/images/categories/pop.jpg
+[DEBUG] from resource zip => assets/Resources/images/categories/punk.jpg
+[DEBUG] from resource zip => assets/Resources/images/categories/r&b.jpg
+[DEBUG] from resource zip => assets/Resources/images/categories/rock.jpg
+[DEBUG] from resource zip => assets/Resources/images/categories/ska.jpg
+[DEBUG] from resource zip => assets/Resources/images/categories/soul.jpg
+[DEBUG] from resource zip => assets/Resources/images/categories/tecno.jpg
+[DEBUG] from resource zip => assets/Resources/images/Cloudy.png
+[DEBUG] from resource zip => assets/Resources/images/Drizzle.png
+[DEBUG] from resource zip => assets/Resources/images/Haze.png
+[DEBUG] from resource zip => assets/Resources/images/Icon-Small.png
+[DEBUG] from resource zip => assets/Resources/images/MostlyCloudy.png
+[DEBUG] from resource zip => assets/Resources/images/SlightDrizzle.png
+[DEBUG] from resource zip => assets/Resources/images/Snow.png
+[DEBUG] from resource zip => assets/Resources/images/Sunny.png
+[DEBUG] from resource zip => assets/Resources/images/Thunderstorms.png
+[DEBUG] from resource zip => assets/Resources/images/app-cover.jpg
+[DEBUG] from resource zip => assets/Resources/images/artists.png
+[DEBUG] from resource zip => assets/Resources/images/bar-stripes.png
+[DEBUG] from resource zip => assets/Resources/images/bolt.png
+[DEBUG] from resource zip => assets/Resources/images/campaigns.png
+[DEBUG] from resource zip => assets/Resources/images/granite.png
+[DEBUG] from resource zip => assets/Resources/images/guest.png
+[DEBUG] from resource zip => assets/Resources/images/light-diagonal-strips.png
+[DEBUG] from resource zip => assets/Resources/images/logo-liveon.png
+[DEBUG] from resource zip => assets/Resources/images/tab.png
+[DEBUG] from resource zip => assets/Resources/images/upcoming.png
+[DEBUG] from resource zip => assets/Resources/images/videoCover.png
+[DEBUG] from resource zip => assets/Resources/Icon.png
+[DEBUG] from resource zip => assets/Resources/KS_nav_ui.png
+[DEBUG] from resource zip => assets/Resources/KS_nav_views.png
+[DEBUG] from resource zip => assets/Resources/actionBarButtoms.js
+[DEBUG] from resource zip => assets/Resources/alloy.js
+[DEBUG] from resource zip => assets/Resources/app-cover.jpg
+[DEBUG] from resource zip => assets/Resources/app.js
+[DEBUG] from resource zip => assets/Resources/bar-stripes.png
+[DEBUG] from resource zip => assets/Resources/dataExport.js
+[DEBUG] from resource zip => assets/Resources/default.png
+[DEBUG] from resource zip => assets/Resources/light-diagonal-strips.png
+[DEBUG] from resource zip => assets/Resources/videoCover.png
+[DEBUG] from resource zip => assets/app.json
+[DEBUG] from resource zip => assets/index.json
+[DEBUG] from resource zip => res/drawable/ab_background_textured_liveonbar.xml
+[DEBUG] from resource zip => res/drawable/activated_background_holo_light.xml
+[DEBUG] from resource zip => res/drawable/appicon.png
+[DEBUG] from resource zip => res/drawable/background.png
+[DEBUG] from resource zip => res/drawable/btn_cab_done_liveonbar.xml
+[DEBUG] from resource zip => res/drawable/btn_check_buttonless_on_64.png
+[DEBUG] from resource zip => res/drawable/btn_check_holo_light.xml
+[DEBUG] from resource zip => res/drawable/btn_default_holo_light.xml
+[DEBUG] from resource zip => res/drawable/btn_more_64.png
+[DEBUG] from resource zip => res/drawable/btn_radio_holo_light.xml
+[DEBUG] from resource zip => res/drawable/btn_toggle_holo_light.xml
+[DEBUG] from resource zip => res/drawable/disclosure_64.png
+[DEBUG] from resource zip => res/drawable/edit_text_holo_light.xml
+[DEBUG] from resource zip => res/drawable/fastscroll_thumb_holo.xml
+[DEBUG] from resource zip => res/drawable/item_background_holo_light.xml
+[DEBUG] from resource zip => res/drawable/list_selector_background_transition_holo_light.xml
+[DEBUG] from resource zip => res/drawable/list_selector_holo_light.xml
+[DEBUG] from resource zip => res/drawable/pressed_background_liveonbar.xml
+[DEBUG] from resource zip => res/drawable/progress_horizontal_holo_light.xml
+[DEBUG] from resource zip => res/drawable/progress_horizontal_liveonbar.xml
+[DEBUG] from resource zip => res/drawable/progress_indeterminate_horizontal_holo_light.xml
+[DEBUG] from resource zip => res/drawable/ratingbar_full_empty_holo_light.xml
+[DEBUG] from resource zip => res/drawable/ratingbar_full_filled_holo_light.xml
+[DEBUG] from resource zip => res/drawable/ratingbar_full_holo_light.xml
+[DEBUG] from resource zip => res/drawable/ratingbar_holo_light.xml
+[DEBUG] from resource zip => res/drawable/ratingbar_small_holo_light.xml
+[DEBUG] from resource zip => res/drawable/scrubber_control_selector_holo_light.xml
+[DEBUG] from resource zip => res/drawable/scrubber_progress_horizontal_holo_light.xml
+[DEBUG] from resource zip => res/drawable/selectable_background_liveonbar.xml
+[DEBUG] from resource zip => res/drawable/spinner_background_ab_liveonbar.xml
+[DEBUG] from resource zip => res/drawable/spinner_background_holo_light.xml
+[DEBUG] from resource zip => res/drawable/tab_indicator_ab_liveonbar.xml
+[DEBUG] from resource zip => res/drawable/tab_indicator_holo.xml
+[DEBUG] from resource zip => res/layout/tab_indicator_holo.xml
+[DEBUG] from resource zip => res/layout/titanium_tabgroup.xml
+[DEBUG] from resource zip => res/layout/titanium_ui_list_header_or_footer.xml
+[DEBUG] from resource zip => res/layout/titanium_ui_list_item.xml
+[DEBUG] from resource zip => AndroidManifest.xml
+[DEBUG] from resource zip => resources.arsc
+[DEBUG] from resource zip => res/drawable-hdpi/ab_bottom_solid_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/ab_solid_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/ab_stacked_solid_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/ab_texture_tile_liveonbar.png
+[DEBUG] from resource zip => res/drawable-hdpi/ab_transparent_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_cab_done_default_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_cab_done_focused_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_cab_done_pressed_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_check_off_disabled_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_check_off_disabled_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_check_off_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_check_off_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_check_off_pressed_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_check_on_disabled_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_check_on_disabled_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_check_on_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_check_on_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_check_on_pressed_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_default_disabled_focused_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_default_disabled_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_default_focused_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_default_normal_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_default_pressed_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_radio_off_disabled_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_radio_off_disabled_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_radio_off_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_radio_off_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_radio_off_pressed_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_radio_on_disabled_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_radio_on_disabled_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_radio_on_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_radio_on_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_radio_on_pressed_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_rating_star_off_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_rating_star_off_normal_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_rating_star_off_pressed_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_rating_star_on_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_rating_star_on_normal_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_rating_star_on_pressed_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_toggle_off_disabled_focused_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_toggle_off_disabled_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_toggle_off_focused_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_toggle_off_normal_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_toggle_off_pressed_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_toggle_on_disabled_focused_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_toggle_on_disabled_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_toggle_on_focused_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_toggle_on_normal_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/btn_toggle_on_pressed_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/cab_background_bottom_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/cab_background_top_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/fastscroll_thumb_default_holo.png
+[DEBUG] from resource zip => res/drawable-hdpi/fastscroll_thumb_pressed_holo.png
+[DEBUG] from resource zip => res/drawable-hdpi/list_activated_holo.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/list_focused_holo.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/list_focused_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/list_longpressed_holo.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/list_pressed_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/list_selector_disabled_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/menu_dropdown_panel_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/progress_bg_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/progress_bg_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/progress_primary_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/progress_primary_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/progress_secondary_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/progress_secondary_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/progressbar_indeterminate_holo1.png
+[DEBUG] from resource zip => res/drawable-hdpi/progressbar_indeterminate_holo2.png
+[DEBUG] from resource zip => res/drawable-hdpi/progressbar_indeterminate_holo3.png
+[DEBUG] from resource zip => res/drawable-hdpi/progressbar_indeterminate_holo4.png
+[DEBUG] from resource zip => res/drawable-hdpi/progressbar_indeterminate_holo5.png
+[DEBUG] from resource zip => res/drawable-hdpi/progressbar_indeterminate_holo6.png
+[DEBUG] from resource zip => res/drawable-hdpi/progressbar_indeterminate_holo7.png
+[DEBUG] from resource zip => res/drawable-hdpi/progressbar_indeterminate_holo8.png
+[DEBUG] from resource zip => res/drawable-hdpi/rate_star_big_half_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/rate_star_big_off_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/rate_star_big_on_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/rate_star_small_half_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/rate_star_small_off_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/rate_star_small_on_holo_light.png
+[DEBUG] from resource zip => res/drawable-hdpi/scrubber_control_disabled_holo.png
+[DEBUG] from resource zip => res/drawable-hdpi/scrubber_control_focused_holo.png
+[DEBUG] from resource zip => res/drawable-hdpi/scrubber_control_normal_holo.png
+[DEBUG] from resource zip => res/drawable-hdpi/scrubber_control_pressed_holo.png
+[DEBUG] from resource zip => res/drawable-hdpi/scrubber_primary_holo.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/scrubber_secondary_holo.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/scrubber_track_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/spinner_ab_default_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/spinner_ab_disabled_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/spinner_ab_focused_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/spinner_ab_pressed_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/spinner_default_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/spinner_disabled_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/spinner_focused_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/spinner_pressed_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/tab_selected_focused_holo.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/tab_selected_focused_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/tab_selected_holo.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/tab_selected_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/tab_selected_pressed_holo.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/tab_selected_pressed_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/tab_unselected_focused_holo.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/tab_unselected_focused_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/tab_unselected_holo.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/tab_unselected_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/tab_unselected_pressed_holo.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/tab_unselected_pressed_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/textfield_activated_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/textfield_default_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/textfield_disabled_focused_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/textfield_disabled_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/textfield_focused_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/ab_bottom_solid_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/ab_solid_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/ab_stacked_solid_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/ab_texture_tile_liveonbar.png
+[DEBUG] from resource zip => res/drawable-mdpi/ab_transparent_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_cab_done_default_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_cab_done_focused_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_cab_done_pressed_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_check_off_disabled_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_check_off_disabled_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_check_off_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_check_off_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_check_off_pressed_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_check_on_disabled_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_check_on_disabled_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_check_on_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_check_on_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_check_on_pressed_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_default_disabled_focused_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_default_disabled_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_default_focused_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_default_normal_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_default_pressed_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_radio_off_disabled_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_radio_off_disabled_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_radio_off_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_radio_off_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_radio_off_pressed_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_radio_on_disabled_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_radio_on_disabled_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_radio_on_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_radio_on_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_radio_on_pressed_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_rating_star_off_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_rating_star_off_normal_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_rating_star_off_pressed_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_rating_star_on_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_rating_star_on_normal_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_rating_star_on_pressed_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_toggle_off_disabled_focused_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_toggle_off_disabled_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_toggle_off_focused_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_toggle_off_normal_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_toggle_off_pressed_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_toggle_on_disabled_focused_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_toggle_on_disabled_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_toggle_on_focused_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_toggle_on_normal_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/btn_toggle_on_pressed_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/cab_background_bottom_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/cab_background_top_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/fastscroll_thumb_default_holo.png
+[DEBUG] from resource zip => res/drawable-mdpi/fastscroll_thumb_pressed_holo.png
+[DEBUG] from resource zip => res/drawable-mdpi/list_activated_holo.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/list_focused_holo.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/list_focused_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/list_longpressed_holo.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/list_pressed_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/list_selector_disabled_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/menu_dropdown_panel_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/progress_bg_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/progress_bg_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/progress_primary_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/progress_primary_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/progress_secondary_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/progress_secondary_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/progressbar_indeterminate_holo1.png
+[DEBUG] from resource zip => res/drawable-mdpi/progressbar_indeterminate_holo2.png
+[DEBUG] from resource zip => res/drawable-mdpi/progressbar_indeterminate_holo3.png
+[DEBUG] from resource zip => res/drawable-mdpi/progressbar_indeterminate_holo4.png
+[DEBUG] from resource zip => res/drawable-mdpi/progressbar_indeterminate_holo5.png
+[DEBUG] from resource zip => res/drawable-mdpi/progressbar_indeterminate_holo6.png
+[DEBUG] from resource zip => res/drawable-mdpi/progressbar_indeterminate_holo7.png
+[DEBUG] from resource zip => res/drawable-mdpi/progressbar_indeterminate_holo8.png
+[DEBUG] from resource zip => res/drawable-mdpi/rate_star_big_half_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/rate_star_big_off_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/rate_star_big_on_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/rate_star_small_half_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/rate_star_small_off_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/rate_star_small_on_holo_light.png
+[DEBUG] from resource zip => res/drawable-mdpi/scrubber_control_disabled_holo.png
+[DEBUG] from resource zip => res/drawable-mdpi/scrubber_control_focused_holo.png
+[DEBUG] from resource zip => res/drawable-mdpi/scrubber_control_normal_holo.png
+[DEBUG] from resource zip => res/drawable-mdpi/scrubber_control_pressed_holo.png
+[DEBUG] from resource zip => res/drawable-mdpi/scrubber_primary_holo.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/scrubber_secondary_holo.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/scrubber_track_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/spinner_ab_default_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/spinner_ab_disabled_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/spinner_ab_focused_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/spinner_ab_pressed_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/spinner_default_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/spinner_disabled_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/spinner_focused_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/spinner_pressed_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/tab_selected_focused_holo.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/tab_selected_focused_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/tab_selected_holo.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/tab_selected_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/tab_selected_pressed_holo.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/tab_selected_pressed_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/tab_unselected_focused_holo.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/tab_unselected_focused_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/tab_unselected_holo.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/tab_unselected_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/tab_unselected_pressed_holo.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/tab_unselected_pressed_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/textfield_activated_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/textfield_default_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/textfield_disabled_focused_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/textfield_disabled_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-mdpi/textfield_focused_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/ab_bottom_solid_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/ab_solid_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/ab_stacked_solid_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/ab_texture_tile_liveonbar.png
+[DEBUG] from resource zip => res/drawable-xhdpi/ab_transparent_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_cab_done_default_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_cab_done_focused_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_cab_done_pressed_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_check_off_disabled_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_check_off_disabled_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_check_off_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_check_off_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_check_off_pressed_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_check_on_disabled_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_check_on_disabled_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_check_on_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_check_on_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_check_on_pressed_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_default_disabled_focused_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_default_disabled_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_default_focused_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_default_normal_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_default_pressed_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_radio_off_disabled_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_radio_off_disabled_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_radio_off_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_radio_off_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_radio_off_pressed_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_radio_on_disabled_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_radio_on_disabled_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_radio_on_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_radio_on_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_radio_on_pressed_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_rating_star_off_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_rating_star_off_normal_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_rating_star_off_pressed_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_rating_star_on_focused_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_rating_star_on_normal_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_rating_star_on_pressed_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_toggle_off_disabled_focused_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_toggle_off_disabled_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_toggle_off_focused_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_toggle_off_normal_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_toggle_off_pressed_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_toggle_on_disabled_focused_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_toggle_on_disabled_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_toggle_on_focused_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_toggle_on_normal_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/btn_toggle_on_pressed_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/cab_background_bottom_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/cab_background_top_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/fastscroll_thumb_default_holo.png
+[DEBUG] from resource zip => res/drawable-xhdpi/fastscroll_thumb_pressed_holo.png
+[DEBUG] from resource zip => res/drawable-xhdpi/list_activated_holo.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/list_focused_holo.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/list_focused_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/list_longpressed_holo.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/list_pressed_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/list_selector_disabled_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/menu_dropdown_panel_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/progress_bg_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/progress_bg_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/progress_primary_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/progress_primary_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/progress_secondary_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/progress_secondary_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/progressbar_indeterminate_holo1.png
+[DEBUG] from resource zip => res/drawable-xhdpi/progressbar_indeterminate_holo2.png
+[DEBUG] from resource zip => res/drawable-xhdpi/progressbar_indeterminate_holo3.png
+[DEBUG] from resource zip => res/drawable-xhdpi/progressbar_indeterminate_holo4.png
+[DEBUG] from resource zip => res/drawable-xhdpi/progressbar_indeterminate_holo5.png
+[DEBUG] from resource zip => res/drawable-xhdpi/progressbar_indeterminate_holo6.png
+[DEBUG] from resource zip => res/drawable-xhdpi/progressbar_indeterminate_holo7.png
+[DEBUG] from resource zip => res/drawable-xhdpi/progressbar_indeterminate_holo8.png
+[DEBUG] from resource zip => res/drawable-xhdpi/rate_star_big_half_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/rate_star_big_off_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/rate_star_big_on_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/rate_star_small_half_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/rate_star_small_off_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/rate_star_small_on_holo_light.png
+[DEBUG] from resource zip => res/drawable-xhdpi/scrubber_control_disabled_holo.png
+[DEBUG] from resource zip => res/drawable-xhdpi/scrubber_control_focused_holo.png
+[DEBUG] from resource zip => res/drawable-xhdpi/scrubber_control_normal_holo.png
+[DEBUG] from resource zip => res/drawable-xhdpi/scrubber_control_pressed_holo.png
+[DEBUG] from resource zip => res/drawable-xhdpi/scrubber_primary_holo.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/scrubber_secondary_holo.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/scrubber_track_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/spinner_ab_default_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/spinner_ab_disabled_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/spinner_ab_focused_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/spinner_ab_pressed_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/spinner_default_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/spinner_disabled_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/spinner_focused_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/spinner_pressed_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/tab_selected_focused_holo.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/tab_selected_focused_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/tab_selected_holo.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/tab_selected_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/tab_selected_pressed_holo.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/tab_selected_pressed_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/tab_unselected_focused_holo.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/tab_unselected_focused_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/tab_unselected_holo.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/tab_unselected_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/tab_unselected_pressed_holo.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/tab_unselected_pressed_liveonbar.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/textfield_activated_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/textfield_default_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/textfield_disabled_focused_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/textfield_disabled_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/textfield_focused_holo_light.9.png
+[DEBUG] from resource zip => res/drawable-long-land-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-long-land-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-long-port-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-long-port-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-land-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-land-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-land-mdpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-port-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-port-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-port-mdpi/background.png
+[DEBUG] from JAR /home/fabian/.titanium/modules/android/ti.paypal/2.2.3/lib/PayPal_MPL.jar => com/paypal/android/utils/data/data.bin
+[DEBUG] from JAR /home/fabian/.titanium/modules/android/ti.paypal/2.2.3/lib/PayPal_MPL.jar => com/paypal/android/utils/data/locale.bin
+[DEBUG] from JAR /home/fabian/.titanium/mobilesdk/linux/3.1.3.GA/android/titanium.jar => org/appcelerator/titanium/build.properties
+[DEBUG] from JAR /home/fabian/.titanium/mobilesdk/linux/3.1.3.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/background.png
+[DEBUG] from JAR /home/fabian/.titanium/mobilesdk/linux/3.1.3.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on.png
+[DEBUG] from JAR /home/fabian/.titanium/mobilesdk/linux/3.1.3.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_18.png
+[DEBUG] from JAR /home/fabian/.titanium/mobilesdk/linux/3.1.3.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_48.png
+[DEBUG] from JAR /home/fabian/.titanium/mobilesdk/linux/3.1.3.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_64.png
+[DEBUG] from JAR /home/fabian/.titanium/mobilesdk/linux/3.1.3.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more.png
+[DEBUG] from JAR /home/fabian/.titanium/mobilesdk/linux/3.1.3.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_18.png
+[DEBUG] from JAR /home/fabian/.titanium/mobilesdk/linux/3.1.3.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_48.png
+[DEBUG] from JAR /home/fabian/.titanium/mobilesdk/linux/3.1.3.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_64.png
+[DEBUG] from JAR /home/fabian/.titanium/mobilesdk/linux/3.1.3.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_normal.9.png
+[DEBUG] from JAR /home/fabian/.titanium/mobilesdk/linux/3.1.3.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_pressed.9.png
+[DEBUG] from JAR /home/fabian/.titanium/mobilesdk/linux/3.1.3.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
+[DEBUG] from JAR /home/fabian/.titanium/mobilesdk/linux/3.1.3.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/default_icon.png
+[DEBUG] from JAR /home/fabian/.titanium/mobilesdk/linux/3.1.3.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/photoDefault.png
+[DEBUG] from JAR /home/fabian/.titanium/mobilesdk/linux/3.1.3.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.js
+[DEBUG] from JAR /home/fabian/.titanium/mobilesdk/linux/3.1.3.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.min.js
+[DEBUG] from JAR /home/fabian/.titanium/mobilesdk/linux/3.1.3.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/json2.js
+[DEBUG] from JAR /home/fabian/.titanium/mobilesdk/linux/3.1.3.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/polling.js
+[DEBUG] from JAR /home/fabian/.titanium/mobilesdk/linux/3.1.3.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/polling.min.js
+[DEBUG] from JAR /home/fabian/.titanium/mobilesdk/linux/3.1.3.GA/android/thirdparty.jar => org/apache/Commons-NOTICE.txt
+[DEBUG] from JAR /home/fabian/.titanium/mobilesdk/linux/3.1.3.GA/android/thirdparty.jar => org/apache/HttpComponents-NOTICE.txt
+[DEBUG] from JAR /home/fabian/.titanium/mobilesdk/linux/3.1.3.GA/android/thirdparty.jar => org/apache/mime4j-NOTICE.txt
+[DEBUG] installing native lib: /home/fabian/.titanium/modules/android/net.bajawa.pager/1.2.3/libs/armeabi/libnet.bajawa.pager.so
+[DEBUG] installing native lib: /home/fabian/.titanium/modules/android/net.bajawa.pager/1.2.3/libs/armeabi-v7a/libnet.bajawa.pager.so
+[DEBUG] installing native lib: /home/fabian/.titanium/modules/android/ti.paypal/2.2.3/libs/armeabi/libti.paypal.so
+[DEBUG] installing native lib: /home/fabian/.titanium/modules/android/ti.paypal/2.2.3/libs/x86/libti.paypal.so
+[DEBUG] installing native lib: /home/fabian/.titanium/modules/android/ti.paypal/2.2.3/libs/armeabi-v7a/libti.paypal.so
+[DEBUG] installing native lib: /home/fabian/.titanium/modules/android/com.xenn.livestreaming/0.1/libs/armeabi/libcom.xenn.liveStreaming.so
+[DEBUG] installing native lib: /home/fabian/.titanium/modules/android/com.xenn.livestreaming/0.1/libs/x86/libcom.xenn.liveStreaming.so
+[DEBUG] installing native lib: /home/fabian/.titanium/modules/android/com.xenn.livestreaming/0.1/libs/armeabi-v7a/libcom.xenn.liveStreaming.so
+[DEBUG] installing native SDK libs
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.003542 seconds on emulator to get ready
+[INFO] Installing application on device
+[INFO] Application installed. Launch from drawer on Home Screen

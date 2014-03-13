@@ -1,0 +1,8 @@
+<Alloy>
+	<View id="container">
+		<View id="buttonMore">
+    		<Label id="text" />
+    	</View>
+    	<Label id="message" />
+	</View>
+</Alloy>

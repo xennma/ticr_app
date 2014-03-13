@@ -1,0 +1,7 @@
+<Alloy>
+  <TableViewRow id="rowMore" name="rowMore">
+  	<View id="buttonMore">
+    	<Label id="title">Load More</Label>
+    </View>
+  </TableViewRow>
+</Alloy>

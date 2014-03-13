@@ -1,0 +1,123 @@
+
+"#container":{
+	top:'0%'
+},
+	"#vp": {
+	 	top : '3%',
+	    autoplay : true,
+	    backgroundColor : "black",
+	    height : '65%',
+	    width : '94%',
+	    left: '3%'
+	},
+	"#data":{
+		top: "73%",
+		height: "20%",
+		
+		width : '94%',
+	    left: '3%'
+	},
+			"#title": {
+			font: {
+			   	fontSize:'14dp',
+				fontWeight:'bold'
+				},
+			height:'50%',
+			left:'0%',
+			top:'2%',
+			color:'#717777'
+			},
+			"#author":{
+				font: {
+				   	fontSize:'13dp'
+				   	
+					},
+				height:'46%',
+				left:'0%',
+				bottom:'2%',
+				color:'#717777',
+				width: '70%'
+			},
+			"#views":{
+				font: {
+				   	fontSize:'13dp',
+				   	fontWeight: 'bold'
+					},
+				height:'30%',
+				right:'0%',
+				bottom:'8%',
+				width: '28%',
+				borderRadius: 4,
+				backgroundColor:'#745DA8',
+				color: 'white',
+				textAlign: 'center'	
+			},
+		"#reportView":{
+		top: '68%',
+		left: '3%',
+		width: '94%',
+		height: '7%'
+	},
+	"#reportButtom":{
+		height:'90%',
+		width: '25%',
+		borderRadius: 4,
+		top: '10%',
+		right:'0%',
+		backgroundColor:'#e4473e',
+	},
+		"#report": {
+			font: {
+			   	fontSize:'13dp',
+			   	fontWeight: 'bold'
+				},			
+			color: 'white',
+			textAlign: 'center'					
+		},			
+	"#other":{
+		top:'93%',
+		left: '0%',
+		backgroundColor: "#f2f2f2",
+		height: '7%'
+	},
+		"#otherEvents":{
+		font: {
+		   	fontSize:'14dp',
+		   	fontWeight:'bold'
+			},
+		height:'100%',
+		left:'3%',
+		width: '94%',
+		top:'0%',
+		textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+		},
+
+
+
+
+"#viewTable":{
+	left: '0%'
+},
+"#table":{
+	top: '0'
+},
+"#author[platform=ios formFactor=tablet]": { 
+    font: {
+	   	fontSize:'25dp'
+		}		
+},
+"#title[platform=ios formFactor=tablet]": { 
+    font: {
+	   	fontSize:'26dp'
+		}	
+},
+"#otherEvents[platform=ios formFactor=tablet]": { 
+    font: {
+	   	fontSize:'26dp'
+		}
+},
+"#views[platform=ios formFactor=tablet]": { 
+    font: {
+	   	fontSize:'25dp'
+		}
+}

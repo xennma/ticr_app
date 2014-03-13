@@ -1,0 +1,132 @@
+
+"#username":{
+	borderStyle: 'Ti.UI.INPUT_BORDERSTYLE_ROUNDED',
+	keyboardType: 'Titanium.UI.KEYBOARD_DEFAULT',
+	returnKeyType: 'Titanium.UI.RETURNKEY_DEFAULT',
+	color: '#336699',
+	hintText: 'Username',
+	top: '2%',
+	width: '80%',
+	height: '10%',
+	left: '10%',
+	border: 1,
+	borderColor: '#c1c1c1',
+	paddingLeft: 5
+},
+"#password":{
+	borderStyle: 'Ti.UI.INPUT_BORDERSTYLE_ROUNDED',
+	keyboardType: 'Titanium.UI.KEYBOARD_DEFAULT',
+	returnKeyType: 'Titanium.UI.RETURNKEY_DEFAULT',
+	color: '#336699',
+	hintText: 'Password',
+	passwordMask: 'true',
+	top: '14%',
+	width: '80%',
+	height: '10%',
+	left: '10%',
+	border: 1,
+	borderColor: '#c1c1c1',
+	paddingLeft: 5
+},
+"#buttonLogin":{
+	font: {
+		   	fontSize:'16dp',
+		   	fontWeight:'bold'
+			},		
+		width: '45%',
+		borderRadius: 4,
+		backgroundColor:'#745DA8',
+		color: 'white',
+		bottom: '5%',
+		height: '10%',
+		textAlign: 'center'
+},
+"#TimezoneLabel":{
+	top: '28%',
+	font: {
+		   	fontSize:'15dp',
+		   	fontWeight:'bold'
+		},
+	color: '#c9c9c9',
+	left: '10%',
+},
+"#pickTimezone":{
+	top: '36%',		
+	width: '80%',
+	left: '10%',
+	font: {
+		   	fontSize:'10dp',
+			},
+	
+},
+"#textBottom[platform=ios formFactor=tablet]": { 
+    font: {
+		fontWeight: 'bold',
+		fontSize: '25dp'
+	},
+},
+"#TimezoneLabel[platform=ios formFactor=tablet]": { 
+    font: {
+		fontWeight: 'bold',
+		fontSize: '22dp'
+	},
+},
+"#username[platform=ios formFactor=tablet]": { 
+    font: {
+		fontSize: '30dp'
+	},
+},
+"#password[platform=ios formFactor=tablet]": { 
+    font: {
+		fontSize: '30dp'
+	},
+},
+"#messageTimezoneAsk":{
+	top: '47%',		
+	width: '80%',
+	left: '10%',
+	height: '17%'
+},
+"#messageTimezoneAskLabel":{
+	top: '10%',
+	font: {
+		   	fontSize:'12dp',
+		   	fontWeight:'bold'
+		},
+	color: '#c9c9c9'	
+},
+"#buttonTimezone":{
+		width: '25%',
+		borderRadius: 4,
+		backgroundColor:'#745DA8',
+		color: 'white',
+		bottom: '5%',
+		height: '30%',
+		textAlign: 'center',
+		left: '0%'
+},
+"#timezoneGps":{
+	top: '35%',		
+	width: '80%',
+	left: '10%',
+	height: '12%',
+	backgroundColor: 'white'
+},
+"#timezoneLabelGps":{
+	top: '10%',
+	font: {
+		   	fontSize:'14dp',
+		   	fontWeight:'bold'
+		}
+},
+"#load":{
+	color: '#6cb1d5',
+	font: {
+	  	fontFamily:'Helvetica Neue', 
+	  	fontSize:'12dp', 
+	  	fontWeight:'bold'
+	  	},
+	message: ' Searching your GPS Timezone',  
+	height: '100%',
+	width: '80%'
+}

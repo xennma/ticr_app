@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>com.liveonstage.liveonstage</id>
+    <name>LiveOnStage</name>
+    <version>1.0.2</version>
+    <publisher>Xenn Marketing</publisher>
+    <url>http://xenn.com</url>
+    <description>LiveOnStage.com - The place where artists can fund their projects.</description>
+    <copyright>2013 by Xenn Marketing</copyright>
+    <icon>icon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>true</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>true</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>ceec9269-f866-4fe1-b28c-178b4b1b507f</guid>
+    <property name="ti.ui.defaultunit" type="string">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <property name="ti.android.fastdev" type="bool">false</property>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <manifest android:installLocation="auto">
+            <uses-sdk android:maxSdkVersion="19"
+                android:minSdkVersion="14" android:targetSdkVersion="18"/>
+            <application android:theme="@style/Theme.Liveonbar"/>
+        </manifest>
+    </android>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="android">net.bajawa.pager</module>
+        <module platform="iphone">ti.paypal</module>
+        <module platform="android" version="2.2.3">ti.paypal</module>
+        <module platform="iphone">com.xenn.finallyios</module>
+        <module platform="android">com.xenn.livestreaming</module>
+    </modules>
+    <deployment-targets>
+        <target device="iphone">true</target>
+        <target device="ipad">true</target>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+        <target device="mobileweb">true</target>
+        <target device="tizen">false</target>
+    </deployment-targets>
+    <sdk-version>3.2.0.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+</ti:app>

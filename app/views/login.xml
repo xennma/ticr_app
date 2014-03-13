@@ -1,0 +1,82 @@
+<Alloy>
+	<Window id="login">	
+		<ActivityIndicator id="activity"/>
+		<View id="container">
+		 <TextField id="username" />
+		 <TextField id="password" />
+		 <Label id="TimezoneLabel">Select your current timezone</Label>
+		 <Picker id="pickTimezone" >
+            <PickerRow value='-12:00,0' title='(-12:00) International Date Line West' />
+			<PickerRow value='-11:00,0' title='(-11:00) Midway Island, Samoa' />
+			<PickerRow value='-10:00,0' title='(-10:00) Hawaii' />
+			<PickerRow value='-09:00,1' title='(-09:00) Alaska' />
+			<PickerRow value='-08:00,1' title='(-08:00) Pacific Time (US &amp; Canada)' />
+			<PickerRow value='-07:00,0' title='(-07:00) Arizona' />
+			<PickerRow value='-07:00,1' title='(-07:00) Mountain Time (US &amp; Canada)' />
+			<PickerRow value='-06:00,0' title='(-06:00) Central America, Saskatchewan' />
+			<PickerRow value='-06:00,1' title='(-06:00) Central Time (US &amp; Canada), Guadalajara, Mexico city' />
+			<PickerRow value='-05:00,0' title='(-05:00) Indiana, Bogota, Lima, Quito, Rio Branco' />
+			<PickerRow value='-05:00,1' title='(-05:00) Eastern time (US &amp; Canada)' selected="true"/>
+			<PickerRow value='-04:00,1' title='(-04:00) Atlantic time (Canada), Manaus, Santiago' />
+			<PickerRow value='-04:30,0' title='(-04:30) Caracas' />
+			<PickerRow value='-04:00,0' title='(-04:00) La Paz' />
+			<PickerRow value='-03:30,1' title='(-03:30) Newfoundland' />
+			<PickerRow value='-03:00,1' title='(-03:00) Greenland, Brasilia, Montevideo' />
+			<PickerRow value='-03:00,0' title='(-03:00) Buenos Aires, Georgetown' />
+			<PickerRow value='-02:00,1' title='(-02:00) Mid-Atlantic' />
+			<PickerRow value='-01:00,1' title='(-01:00) Azores' />
+			<PickerRow value='-01:00,0' title='(-01:00) Cape Verde Is.' />
+			<PickerRow value='00:00,0' title='(00:00) Casablanca, Monrovia, Reykjavik' />
+			<PickerRow value='00:00,1' title='(00:00) GMT: Dublin, Edinburgh, Lisbon, London' />
+			<PickerRow value='+01:00,1' title='(+01:00) Amsterdam, Berlin, Rome, Vienna, Prague, Brussels' />
+			<PickerRow value='+01:00,0' title='(+01:00) West Central Africa' />
+			<PickerRow value='+02:00,1' title='(+02:00) Amman, Athens, Istanbul, Beirut, Cairo, Jerusalem' />
+			<PickerRow value='+02:00,0' title='(+02:00) Harare, Pretoria' />
+			<PickerRow value='+03:00,1' title='(+03:00) Baghdad, Moscow, St. Petersburg, Volgograd' />
+			<PickerRow value='+03:00,0' title='(+03:00) Kuwait, Riyadh, Nairobi, Tbilisi' />
+			<PickerRow value='+03:30,0' title='(+03:30) Tehran' />
+			<PickerRow value='+04:00,0' title='(+04:00) Abu Dhadi, Muscat' />
+			<PickerRow value='+04:00,1' title='(+04:00) Baku, Yerevan' />
+			<PickerRow value='+04:30,0' title='(+04:30) Kabul' />
+			<PickerRow value='+05:00,1' title='(+05:00) Ekaterinburg' />
+			<PickerRow value='+05:00,0' title='(+05:00) Islamabad, Karachi, Tashkent' />
+			<PickerRow value='+05:30,0' title='(+05:30) Chennai, Kolkata, Mumbai, New Delhi, Sri Jayawardenepura' />
+			<PickerRow value='+05:45,0' title='(+05:45) Kathmandu' />
+			<PickerRow value='+06:00,0' title='(+06:00) Astana, Dhaka' />
+			<PickerRow value='+06:00,1' title='(+06:00) Almaty, Nonosibirsk' />
+			<PickerRow value='+06:30,0' title='(+06:30) Yangon (Rangoon)' />
+			<PickerRow value='+07:00,1' title='(+07:00) Krasnoyarsk' />
+			<PickerRow value='+07:00,0' title='(+07:00) Bangkok, Hanoi, Jakarta' />
+			<PickerRow value='+08:00,0' title='(+08:00) Beijing, Hong Kong, Singapore, Taipei' />
+			<PickerRow value='+08:00,1' title='(+08:00) Irkutsk, Ulaan Bataar, Perth' />
+			<PickerRow value='+09:00,1' title='(+09:00) Yakutsk' />
+			<PickerRow value='+09:00,0' title='(+09:00) Seoul, Osaka, Sapporo, Tokyo' />
+			<PickerRow value='+09:30,0' title='(+09:30) Darwin' />
+			<PickerRow value='+09:30,1' title='(+09:30) Adelaide' />
+			<PickerRow value='+10:00,0' title='(+10:00) Brisbane, Guam, Port Moresby' />
+			<PickerRow value='+10:00,1' title='(+10:00) Canberra, Melbourne, Sydney, Hobart, Vladivostok' />
+			<PickerRow value='+11:00,0' title='(+11:00) Magadan, Solomon Is., New Caledonia' />
+			<PickerRow value='+12:00,1' title='(+12:00) Auckland, Wellington' />
+			<PickerRow value='+12:00,0' title='(+12:00) Fiji, Kamchatka, Marshall Is.' />
+			<PickerRow value='+13:00,0' title="(+13:00) Nuku'alof" />
+        </Picker>	
+         <View id="messageTimezoneAsk">	
+				<Label id="messageTimezoneAskLabel">Did the GPS not retrieve your timezone? (Choose Timezone Manually)</Label>
+				<View id="buttonTimezone">
+					<Label id="textBottom">Choose</Label>
+				</View>
+				
+		</View>	
+		 <View id="timezoneGps">	
+		 	<ActivityIndicator id="load"/>
+				<Label id="timezoneLabelGps"></Label>
+		</View>			 
+        
+        <View id="buttonLogin">	
+				<Label id="textBottom">Login</Label>
+		</View>	
+		
+       
+		  </View>
+	</Window>
+</Alloy>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="Liveonapp" parent="android:Theme.Light">
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewLiveonapp</item>
+
+    <item name="android:checkboxStyle">@style/CheckBoxLiveonapp</item>
+
+    <item name="android:radioButtonStyle">@style/RadioButtonLiveonapp</item>
+
+    <item name="android:buttonStyle">@style/ButtonLiveonapp</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonLiveonapp</item>
+
+    <item name="android:spinnerStyle">@style/SpinnerLiveonapp</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerLiveonapp.DropDown</item>
+
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemLiveonapp</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarLiveonapp</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarLiveonapp</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarLiveonapp</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigLiveonapp</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallLiveonapp</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleLiveonapp</item>
+
+    <item name="android:listViewStyle">@style/ListViewLiveonapp</item>
+
+    <item name="android:listViewWhiteStyle">@style/ListViewLiveonapp.White</item>
+
+    <item name="android:spinnerItemStyle">@style/SpinnerItemLiveonapp</item>
+
+  </style>
+
+</resources>

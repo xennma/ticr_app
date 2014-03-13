@@ -1,0 +1,86 @@
+"#title": {	
+	font: {
+		fontSize:'15dp',
+		fontWeight:'bold' 
+		},
+	left:'110dp',
+	top:'3%',
+	color:'#2B2B2B',
+	shadowColor: '#f2f2f2',
+  	shadowOffset: {x:1, y:1}
+},
+"#author":{
+   	font: {
+	   	fontSize:'14dp'
+		},
+	left:'110dp',
+	bottom:'18dp',
+	color:'#717777'
+},
+"#footMessage":{
+	font: {
+		fontSize:'13dp' 
+		},
+	left:'110dp',
+	bottom: '3dp',
+	color:'#909090'
+},
+"#image":{
+	width: '100dp',
+	height: '70dp',
+	left: '5dp',
+	top: '5dp'
+},
+"#rowListItems":{
+	height: '80dp',
+	touchEnabled: true,
+	hasChild: false
+},
+"#author[platform=ios formFactor=tablet]": { 
+    font: {
+	   	fontSize:'26dp'
+		},
+	left: '145dp'	,
+	bottom: '30dp'	
+},
+"#title[platform=ios formFactor=tablet]": { 
+    font: {
+	   	fontSize:'30dp'
+		},
+	left: '145dp'		
+},
+"#footMessage[platform=ios formFactor=tablet]": { 
+    font: {
+	   	fontSize:'26dp'
+		},
+	left: '145dp'		
+},
+"#rowListItems[platform=ios formFactor=tablet]": { 
+   height: '120dp'		
+},
+"#image[platform=ios formFactor=tablet]": { 
+    height: '110dp'	,
+    width: '130dp'	
+},
+"#live": {
+	font: {
+			  fontSize:'10dp',
+			  fontWeight: 'bold'
+		},	
+	borderRadius: 4,	
+	backgroundColor:'#e4473e',
+	color: 'white',
+	textAlign: 'center',
+	left:'3%',
+	top:'11%',
+	height:'20%',
+	width: '10%'
+},
+"#liveView":{
+	left:'3%',
+	top:'11%',
+	height:'20%',
+	width: '10%'
+}
+
+

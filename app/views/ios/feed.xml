@@ -1,0 +1,63 @@
+<Alloy>
+    
+    <Window id="feedWin">
+    	
+    	<View id="Navigation">
+    		<View id="actionIos">
+	    		<Label id="backArrow"/>
+	    		<View id="iconSmall">
+	    			<ImageView id="image" image="/Icon-Small.png" />
+	    		</View>
+    		</View>
+    		<Label id="current"/>
+    		<View class="navigationBottomBorder"/>
+    		<View id="bottomLogin">	
+				<Label id="textBottom">Login</Label>
+			</View>
+    	</View>
+    	<ScrollView id="topNav" showVerticalScrollIndicator="false" showHorizontalScrollIndicator="false" scrollType="horizontal">
+			<View id="NavContainer">
+				<View id="categories" class="navItem">
+					<Label class="navLabel">Categories</Label>
+					<View class="listSeparator"/>
+				</View>
+		        <View id="videos" class="navItem">
+					<Label class="navLabel">Live Shows</Label>
+					<View class="listSeparator"/>
+				</View>
+				<View id="campaigns" class="navItem">
+					<Label class="navLabel">Campaigns</Label>
+					<View class="listSeparator"/>
+				</View>
+				<View id="upcoming" class="navItem">
+					<Label class="navLabel">Upcoming</Label>
+					<View class="listSeparator"/>
+				</View>
+				<View id="artists" class="navItem">
+					<Label class="navLabel">Artists</Label>
+				</View>  
+			</View> 
+
+			<ScrollView id="menuBar" showVerticalScrollIndicator="false" showHorizontalScrollIndicator="false" scrollType="horizontal">
+				<View id="barContainer">
+					<View id="barra"/>
+			    </View>
+			    
+		    </ScrollView>
+    		<View class="menuBarBottomBorder"/>
+    	</ScrollView>
+    
+    	
+    
+        <ScrollableView id="scrollableView">
+            <View id="categoriesScreen"><ActivityIndicator id="activity"/></View>
+            <View id="videosScreen"><ActivityIndicator id="activity"/></View>
+            <View id="campaignsScreen"><ActivityIndicator id="activity"/></View>
+            <View id="upcomingScreen"><ActivityIndicator id="activity"/></View>
+            <View id="artistsScreen"><ActivityIndicator id="activity"/></View>
+           
+        </ScrollableView>
+    </Window>
+   
+</Alloy>
+

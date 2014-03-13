@@ -1,0 +1,10 @@
+"#title":{
+   	font: {
+	   	fontSize:'14dp'
+		}
+},
+"#title[platform=ios formFactor=tablet]": { 
+    font: {
+	   	fontSize:'26dp'
+		}
+}

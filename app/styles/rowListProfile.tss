@@ -1,0 +1,20 @@
+"#title": {	
+		left:"10dp",
+		height:'50dp',
+		color:"black",
+		font:{fontSize:'14dp'},
+		width: '80%'
+},
+"#rowListProfile":{
+	height: '50dp',
+	touchEnabled: true,				 	
+	hasChild: false
+},
+"#title[platform=ios formFactor=tablet]": { 
+    font: {
+	   	fontSize:'26dp'
+		}		
+},
+"#rowListProfile[platform=ios formFactor=tablet]": { 
+    height: '70dp'		
+}

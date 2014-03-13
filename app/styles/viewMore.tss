@@ -1,0 +1,40 @@
+"#container": {
+	backgroundColor: "#f2f2f2"
+},
+"#buttonMore":{
+	height:'40dp',
+	left: '33%',
+	width: '34%'
+},
+"#text":{
+   	font: {
+		fontSize:'12dp',
+		fontWeight: 'bold'
+		},
+	top: '5%',
+	height: '90%',
+	width: '90%',
+	borderRadius: 5,
+	backgroundColor:'#745DA8',
+	color: 'white',
+	textAlign: 'center'
+},
+"#message":{
+   	font: {
+		fontSize:'14dp'
+		},
+		color: "#000000"
+},
+"#text[platform=ios formFactor=tablet]": { 
+    font: {
+	   	fontSize:'24dp'
+		}
+},
+"#buttonMore[platform=ios formFactor=tablet]": { 
+   height: '70dp'
+},
+"#message[platform=ios formFactor=tablet]": { 
+    font: {
+	   	fontSize:'26dp'
+		}
+}

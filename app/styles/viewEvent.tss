@@ -1,0 +1,162 @@
+"#data":{
+	top: '3%',
+	height: '44%',
+	left: '1%',
+	width: '98%'
+},
+	"#image": {
+		top: '0%',
+		width: "50%",
+		height: '100%',
+		left: '0%'
+	},
+	"#topdata":{
+			height:'48%',
+			left:'52%',
+			top:'0%',
+			width: '48%'
+	},
+		"#title": {
+			font: {
+			   	fontSize:'15dp',
+				fontWeight:'bold'
+				},
+			height:'100%',
+			left:'0%',
+			top:'0%',
+			color:'#e4473e'
+		},
+	"#bottomdata":{
+			height:'50%',
+			left:'52%',
+			top:'50%'
+	},
+	
+		"#author":{
+			font: {
+			   	fontSize:'13dp'
+				},
+			height:'30%',
+			top:'0%',
+			left: '0%',
+			color:'#717777'
+		},
+		"#date":{
+			font: {
+			   	fontSize:'13dp'
+				},
+			height:'28%',
+			left:'0%',
+			top:'32%',
+			color:'#717777'
+		},
+		"#views":{
+			font: {
+			   	fontSize:'12dp',
+			   	fontWeight: 'bold'
+				},
+			height:'32%',
+			left:'0%',
+			bottom:'5%',
+			color:'#717777',
+			width: '98%',
+			borderRadius: 4,
+			backgroundColor:'#745DA8',
+			color: 'white',
+			textAlign: 'center'
+		},
+"#content":{
+	top:'48%',
+	left: '0dp',
+	height: "40%",
+	borderColor: '#c3c3c3',
+	backgroundImage: '/light-diagonal-strips.png',
+	backgroundRepeat: true,
+	borderWidth: 0	
+},
+"#description":{
+	font: {
+	   	fontSize:'12dp'
+		},
+	height:'auto',
+	left:'3%',
+	top:'9%',
+	width: "94%",
+	height : "90%",
+	color: 'gray'
+},
+"#titleDescription":{
+	font: {
+	   	fontSize:'14dp',
+	   	fontWeight:'bold'
+		},
+	height:'auto',
+	left:'3%',
+	width: "94%",
+	top:'4%'
+},
+"#otherEvents":{
+	font: {
+	   	fontSize:'14dp',
+	   	fontWeight:'bold'
+		},
+	height:'auto',
+	left:'10dp',
+	top:'0dp',
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+},
+"#other":{
+	top:'90%',
+	left: '0dp',
+	backgroundColor: "#f2f2f2",
+	height: '22dp'
+},
+"#table":{
+	top:'0'
+},
+"#viewTable":{
+	top:'0%',
+	left: '0dp'
+},
+"#author[platform=ios formFactor=tablet]": { 
+    font: {
+	   	fontSize:'25dp'
+		}		
+},
+"#title[platform=ios formFactor=tablet]": { 
+    font: {
+	   	fontSize:'28dp'
+		}	
+},
+"#views[platform=ios formFactor=tablet]": { 
+    font: {
+	   	fontSize:'24dp'
+		},
+	top : '105dp'	
+},
+"#date[platform=ios formFactor=tablet]": { 
+    font: {
+	   	fontSize:'24dp'
+		}		
+},
+"#description[platform=ios formFactor=tablet]": { 
+    font: {
+	   	fontSize:'24dp'
+		}	
+},
+"#titleDescription[platform=ios formFactor=tablet]": { 
+    font: {
+	   	fontSize:'26dp'
+		}
+},
+"#otherEvents[platform=ios formFactor=tablet]": { 
+    font: {
+	   	fontSize:'26dp'
+		},
+		top: '5dp'
+},
+"#other[platform=ios formFactor=tablet]": { 
+    height: '42dp'
+}
+
+

@@ -1,0 +1,51 @@
+"#actionIos": {
+	zIndex: 10,
+	height: '100%'
+	},
+
+".navigationBottomBorder":{
+	height: '2%',
+	backgroundColor: '#c6c6c6',
+	width: '100%',
+	bottom: '0%'
+	},
+"#Navigation":{
+	height: '8%',
+	top: '0%',
+	backgroundColor: '#f2f2f2',
+	backgroundImage: '/light-diagonal-strips.png',
+	backgroundRepeat: true
+	
+},
+"#backArrow":{
+	left: '0%',
+	width: '5%',
+	font: {
+		fontSize: '20dp'
+	},
+	color: 'gray'
+	},
+"#iconSmall":{
+	left: '5%',
+	width: '12%',
+	height: '90%',
+	top: '5%',
+//	backgroundImage:'/Icon-Small.png',
+//	backgroundRepeat: false
+	},
+"#current":{
+	left: '19%'
+},
+"#current[platform=ios formFactor=tablet]": { 
+    font: {
+		fontSize: '30dp'
+	},
+},
+"#bottomLogin":{
+	top:'14%',
+	right: '5dp',
+	width: '20%',
+	height: '80%',
+	zIndex: 100
+}
+

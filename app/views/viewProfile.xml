@@ -1,0 +1,31 @@
+<Alloy>
+	<Window id="viewProfile">	
+		<ActivityIndicator id="activity"/>
+		
+		<View id="container">
+		<VideoPlayer id="vp" />
+		<ImageView id="cover"/>
+		<View id="reportView">
+			<View id="reportButtom">
+				<Label id="report">Report</Label>
+			</View>
+		</View>	
+		<View id="data">	
+			<Label id="author" />
+			<Label id="views" />
+			<Label id="videos"/>
+		</View>	
+		<View id="links">
+			<View id="event">	
+				<Label id="labelLink">Upcoming</Label>
+			</View>
+			<View id="video">	
+				<Label id="labelLink">Videos</Label>
+			</View>
+			<View id="campaign">	
+				<Label id="labelLink">Campaigns</Label>
+			</View>
+		</View>	
+		</View>		
+	</Window>
+</Alloy>

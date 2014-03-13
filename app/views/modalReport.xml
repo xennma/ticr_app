@@ -1,0 +1,30 @@
+<Alloy>
+	<Window id="modal" modal="true">	
+		<ActivityIndicator id="activity"/>
+		<View id="contentModal">
+			<View id="container">					
+				<View id="reportTitle">
+						<Label id="title">Report this</Label>
+						<View id="border" />
+				</View>		
+						
+				<Picker id="pickReport" >
+					<PickerRow value='0' title='Select a predefined report' />
+	            	<PickerRow value='Spamming / Advertisement Profanity / Inappropriate content. Abusive.' title='Spamming / Advertisement Profanity / Inappropriate content. Abusive.' />
+	            </Picker>
+				
+				<TextArea id="description" textAlign="left" value="Description" />
+			
+				<View id="reportFoot">
+						<View id="bottomModal">	
+							<Label id="textBottom">Send</Label>							
+						</View>	
+						<View id="bottomModalCancel">	
+							<Label id="textBottom">Cancel</Label>
+						</View>	
+				</View>	
+			
+			</View>	
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,15 @@
+<Alloy>
+	<Window id="camera">		
+		<ActivityIndicator id="activity"/>
+		<View id="container">
+		
+		<View id="btnStart">	
+				<Label id="textBottomStart">Start</Label>
+		</View>	
+			
+		<View id="btnStop">	
+				<Label id="textBottomStop" class="btnStopC">Stop</Label>
+		</View>	
+        </View>
+	</Window>
+</Alloy>

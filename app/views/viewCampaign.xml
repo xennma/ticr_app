@@ -1,0 +1,56 @@
+<Alloy>
+	<Window id="viewCampaign" >	
+	<ScrollView id="scroll" width="100%" scrollType="vertical" top="0">
+		<View height="Ti.Platform.displayCaps.platformHeight + 60" id="viewScroll" top="0">
+			<ActivityIndicator id="activity"/>
+			<View id="fixed">
+				<VideoPlayer id="vp" />
+				<ImageView id="cover"/>
+				<View id="reportView">
+					<View id="reportButtom">
+						<Label id="report">Report</Label>
+					</View>
+				</View>	
+				<View id="data">					
+					<View id="meta">
+						<Label id="title" />
+						<Label id="author" />
+						<Label id="categoryName" />
+						
+					</View>
+					<View id="content">
+						<Label id="titleDescription">Description:</Label>
+						<Label id="description"/>
+						<Label id="readmore">Read more</Label>
+					</View>	
+					
+					<View id="campaignInfo">
+						<View id="progressBar">
+						    <View id="campaignBar"/>
+						    <View id="porcentaje"/>
+				    	</View>
+						<View id="progressInfo">
+						    <Label id="accomplished" />
+						    <Label id="percentage" />
+						    <Label id="days" /> 
+						    <Label id="total" /> 
+						    <Label id="textAccomplished">Pledged</Label>
+						    <Label id="textPercentage">Funded</Label>
+						    <Label id="textDays">Days to Go</Label>
+						    <Label id="textTotal">Total</Label>
+					    </View>
+			    	</View>
+				</View>	
+				<View id="bottomBorder"/>
+			</View>				
+		</View>
+		<View id="givebacks">
+				<Label id="givebacksTitle">Givebacks:</Label>
+				<View id="perks"/>					
+			</View>	
+	</ScrollView>
+	<View id="donate">			
+    	
+		</View>		
+	</Window>
+</Alloy>

@@ -1,0 +1,26 @@
+"#buttonMore":{
+	height:'40dp',
+	left: '33%',
+	width: '34%'
+},
+"#title":{
+   	font: {
+		fontSize:'12dp',
+		fontWeight: 'bold'
+		},
+	top: '5%',
+	height: '90%',
+	width: '90%',
+	borderRadius: 5,
+	backgroundColor:'#745DA8',
+	color: 'white',
+	textAlign: 'center'
+},
+"#title[platform=ios formFactor=tablet]": { 
+    font: {
+	   	fontSize:'24dp'
+		}
+},
+"#buttonMore[platform=ios formFactor=tablet]": { 
+   height: '70dp'
+}

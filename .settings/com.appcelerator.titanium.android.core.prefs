@@ -1,0 +1,10 @@
+android/ATTR_MINIFY=true
+android/ATTR_PROJECT_NAME=liveonstage
+android/abi=armeabi-v7a
+android/distribute_path=/Users/lucheins/Desktop/AndroidKeys
+android/keystore_alias=alias_name
+android/keystore_password=NewXenn1M\!*
+android/keystore_path=/Users/lucheins/Desktop/AndroidKeys/keys
+android/recent_output=/Users/lucheins/Desktop/AndroidKeys
+android/sdk_version=4.4.2
+eclipse.preferences.version=1

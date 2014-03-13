@@ -1,0 +1,28 @@
+<Alloy>	
+	<View id="container">
+    	<View id="tile">
+	    	<View id="videocover">
+		    	<ImageView id="cover"/>
+	    	</View>
+	    	<View id="videoinfo">
+	    		<View id="header">
+		    		<Label id="title"/>
+		    	</View>
+		    	<View id="data">
+		    		<Label id="about" />
+		    		<Label id="views" />		    		
+		    		<Label id="videos" />
+		    	</View>		    	
+		    	<View id="progressBar">
+			    	<View id="campaignBar"/>
+			    	<View id="porcentaje"/>
+			    </View>
+			    	<View id="progressInfo">
+				    	<Label id="accomplished" />
+				    	<Label id="percentage" />
+				    	<Label id="days" />
+			    	</View>			    
+	    	</View>
+	    </View> 
+    </View>
+</Alloy>

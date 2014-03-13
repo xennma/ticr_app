@@ -1,0 +1,106 @@
+"#modal":{
+	backgroundColor: "#50000000",	
+},
+"#contentModal":{
+	backgroundColor: 'transparent',
+	height: '50%',
+	width: '80%'
+},
+"#container":{
+	backgroundColor: '#fff',
+	height: '100%',
+	width: '100%',
+	borderRadius: 5,
+	borderColor: '#78797A',
+	borderWidth: 1
+},
+"#videoName":{
+	hintText: 'Name Your Broadcast',
+	top: '25%',
+	width: '90%',
+	color: '#336699',
+	borderColor: '#c1c1c1',
+	paddingLeft: 5,
+    font: {
+	   	fontSize:'14dp',
+		},
+	height: '18%',
+},
+"#bottomModal":{
+	bottom:'5%',
+	left: '5%',
+	width: '35%',
+	height: '100%'
+},
+"#textBottom":{
+	font: {
+	   	fontSize:'12dp',
+	   	fontWeight:'bold'
+		},
+	height:'70%',
+	bottom:'8%',
+	width: '98%',
+	borderRadius: 4,
+	backgroundColor:'#745DA8',
+	color: 'white',
+	textAlign: 'center'	
+},
+"#description":{	
+	top: '45%',
+	width: '90%',
+	height: '35%',
+	color: '#c1c1c1',
+	borderColor: '#c1c1c1',
+	paddingLeft: 5,
+	borderStyle:"Ti.UI.INPUT_BORDERSTYLE_ROUNDED",
+	font: {
+	   	fontSize:'14dp'
+		}	
+},
+"#reportTitle":{	
+	top: '0%',
+	width: '100%',
+	height: '20%',
+	
+},
+"#reportFoot":{	
+	bottom: '0%',
+	width: '100%',
+	height: '18%',
+	borderColor: '#c1c1c1',
+	borderWidth: 1
+},
+"#title":{	
+	color: '#299ac6',
+	font: {
+	   	fontSize:'18dp'
+		},
+	left: '5%'	
+},
+"#border":{	
+	bottom: '0%',
+	borderColor: '#299ac6',
+	borderWidth: 1
+},
+"#bottomModalCancel":{
+	bottom:'5%',
+	left: '45%',
+	width: '35%',
+	height: '100%'
+},
+"#textBottomCancel":{
+	font: {
+	   	fontSize:'12dp',
+	   	fontWeight:'bold'
+		},
+	height:'70%',
+	bottom:'8%',
+	width: '98%',
+	borderRadius: 4,
+	backgroundColor:'white',
+	color: '#745DA8',
+	textAlign: 'center',
+	//borderColor: '#745DA8',
+	//borderWidth: 1	
+} 
+

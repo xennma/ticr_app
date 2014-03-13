@@ -1,0 +1,26 @@
+<Alloy>
+	<Window id="viewVideo">	
+		<ActivityIndicator id="activity"/>	
+		<ScrollView id="scroll" width="100%" height="100%" scrollType="vertical">	
+			<View id="container">
+				<VideoPlayer id="vp" />
+				<View id="reportView">
+					<View id="reportButtom">
+						<Label id="report">Report</Label>
+					</View>	
+				</View>	
+				<View id="data">	
+					<Label id="title"/>
+					<Label id="author"/>
+					<Label id="views"/>					
+				</View>		
+				<View id="other">
+					<Label id="otherEvents">Other videos from this Artist:</Label>
+				</View>								
+			</View>				
+			<View id="viewTable">
+				<TableView id="table"/>
+			</View>
+		</ScrollView>	
+	</Window>
+</Alloy>

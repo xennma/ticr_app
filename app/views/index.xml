@@ -1,0 +1,37 @@
+<Alloy>
+	<Window id="index">
+		<View id="Navigation">
+			
+			<ImageView id="logo" image="/images/logo-liveon.png"/>
+    		<View class="navigationBottomBorder"/>
+    	</View>
+		<View id="banner">
+			<View id="overlay">
+				<View id="gradient"/>
+			</View>
+			<Label class="promo">Promoting your music with live video</Label>
+		</View>
+		<View id="buttoncontainer">
+			<View class="buttonsTopBorder"/>
+			<View id="topButtons" class="topButtons">
+				<View id="liveShows" class="first">
+					<View class="first-container">
+					<ImageView class="menu-icon" image="/images/artists.png" />
+					<Label class="menu-label">Browse</Label>
+					</View>
+					<Label class="menu-small-label">Find live shows, campaigns, artists and more</Label>					
+				</View>
+			</View>
+			<View id="bottomButtons" class="bottomButtons">
+				<View id="upcomingEvents" class="first">
+					<View class="first-container">
+					<ImageView class="menu-icon" image="/images/bolt.png" />
+					<Label class="menu-label">Go Live!</Label>
+					</View>	
+					<Label class="menu-small-label">Already have a live show scheduled? Broadcast using this device!</Label>
+								
+				</View>				
+			</View>
+		</View>
+	</Window>
+</Alloy>

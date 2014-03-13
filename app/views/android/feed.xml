@@ -1,0 +1,5 @@
+<Alloy>
+	<Window class="container" id="feedWin" title="Live On Stage - Categories" navBarHidden="false">		
+		<ActivityIndicator id="activity"/>
+	</Window>
+</Alloy>

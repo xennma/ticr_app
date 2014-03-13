@@ -1,0 +1,129 @@
+"#Navigation":{
+	height: '8%',
+	top: '0%',
+	backgroundColor: '#16011e',
+	backgroundImage: '/light-diagonal-strips.png',
+	backgroundRepeat: true	
+},
+".navigationBottomBorder":{
+	height: '5%',
+	backgroundColor: 'gray',
+	width: '100%',
+	bottom: 0
+	},
+".buttonsTopBorder":{
+	height: '1%',
+	backgroundColor: '#d0d0d0',
+	width: '100%',
+	top: '0%'
+	},
+
+"#banner":{
+	height: '54%',
+	top: '8%',
+	backgroundImage:'/app-cover.jpg',
+	left: "-100%"
+	},
+"#overlay":{
+	
+	opacity: 0.7
+	}
+"#buttoncontainer":{
+	height: '38%',
+	top: '100%',
+	backgroundColor: 'white',
+	backgroundImage: '/light-diagonal-strips.png',
+	backgroundRepeat: true
+	},
+".topButtons":{
+	height: '45%',
+	top: '5%',
+	width: "100%"
+	
+	},
+".bottomButtons":{
+	height: '45%',
+	top: '51%',
+	width: "100%"
+	
+	},
+".first": {
+	width: '96%',
+	left: '2%',
+	borderWidth: 1,
+	borderColor: '#d0d0d0',
+	backgroundColor: '#e4473e'
+	
+},
+".first-container": {
+	width: '40%',
+	left: '30%',
+	top: '15%',
+	height: '42%'
+},
+".second": {
+	width: '96%',
+	left: '2%',
+	borderWidth: 1,
+	borderColor: '#d0d0d0',
+	backgroundColor: '#e4473e'
+		
+},
+"#logo":{
+	top: '5%',
+	height: '90%'
+	},
+".promo":{
+	color: 'white',
+	font: {
+		fontSize: '25dp',
+		fontWeight: 'bold'
+	},
+	bottom: '5%',
+	left: '4%',
+	width: '92%',
+	textAlign: 'center'
+},
+".menu-icon":{
+	width: '20%',
+	height: '70%',
+	left: '5%'
+	},
+".menu-label":{
+	color: 'white',
+	font: {
+		fontWeight: 'bold',
+		fontSize: '18dp'
+	},
+	left: '30%'	
+},
+".menu-small-label":{
+	color: '#c2c2c2',
+	font: {
+		fontWeight: 'bold',
+		fontSize: '10dp'
+	},
+	bottom:'10%',
+  	textAlign: 'center',
+  	left: '20%',
+  	width: '60%'
+},
+".menu-small-label[platform=ios formFactor=tablet]": { 
+    font: {
+		fontWeight: 'bold',
+		fontSize: '22dp'
+	},
+},
+".menu-label[platform=ios formFactor=tablet]": { 
+    font: {
+		fontWeight: 'bold',
+		fontSize: '30dp'
+	},
+},
+".promo[platform=ios formFactor=tablet]": { 
+    font: {
+		fontWeight: 'bold',
+		fontSize: '58dp'
+	},
+}
+

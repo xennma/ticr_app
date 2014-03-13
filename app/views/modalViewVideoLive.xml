@@ -1,0 +1,25 @@
+<Alloy>
+	<Window id="modal" modal="true">	
+		<View id="contentModal">
+			<View id="container">	
+				<View id="reportTitle">
+						<Label id="title">Go Live!</Label>
+						<View id="border" />
+				</View>				
+			<TextField id="videoName" />
+			<TextArea id="description" textAlign="left" value="Description" />
+			
+			<View id="reportFoot">
+						<View id="bottomModal">	
+							<Label id="textBottom">Go Live!</Label>							
+						</View>		
+						
+						<View id="bottomModalCancel">	
+							<Label id="textBottomCancel">Cancel</Label>							
+						</View>						
+				</View>	
+			
+			</View>	
+		</View>
+	</Window>
+</Alloy>
