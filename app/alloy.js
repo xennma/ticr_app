@@ -10,8 +10,8 @@
 //
 // Alloy.Globals.someGlobalFunction = function(){};
 
-Alloy.Globals.NAME_PAGE = 'LiveOnStage';
-Alloy.Globals.DOMAIN = 'http://www.liveonstage.com/';
+Alloy.Globals.NAME_PAGE = 'Ticr';
+Alloy.Globals.DOMAIN = 'http://www.liveonstage.com/ticr/';
 Alloy.Globals.URL_BASE = 'index.php?option=com_mobile';
 Alloy.Globals.URL_VIDEO = 'index.php?option=com_mobile&task=video';
 Alloy.Globals.URL_PROFILE = 'index.php?option=com_mobile&task=profile';

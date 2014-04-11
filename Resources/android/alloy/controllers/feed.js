@@ -3,8 +3,6 @@ function Controller() {
         categoryId = catId;
         $.feedWin.activity.actionBar.title = title;
         live.setData([]);
-        campaigns.removeAllChildren();
-        upcomming.setData([]);
         artists.removeAllChildren();
         data.getListItems($.activity, live, 0, 0, categoryId, 0, 0, "Videos");
         viewPager.scrollTo(1);
@@ -48,16 +46,6 @@ function Controller() {
     var data = require("dataExport");
     var categories = Ti.UI.createTableView();
     var live = Ti.UI.createTableView();
-    var campaigns = Ti.UI.createScrollView({
-        width: "100%",
-        height: "100%",
-        contentWidth: "auto",
-        contentHeight: "auto",
-        top: 0,
-        left: 0,
-        backgroundColor: "#f2f2f2"
-    });
-    var upcomming = Ti.UI.createTableView();
     var artists = Ti.UI.createScrollView({
         width: "100%",
         height: "100%",
@@ -73,12 +61,6 @@ function Controller() {
     }, {
         title: "Live Shows",
         view: live
-    }, {
-        title: "Campaigns",
-        view: campaigns
-    }, {
-        title: "Upcoming",
-        view: upcomming
     }, {
         title: "Artists",
         view: artists
@@ -116,9 +98,7 @@ function Controller() {
     viewPager.addEventListener("pageChange", function(e) {
         0 == e.to && 0 == categories.data.length && data.getCategories($.activity, categories);
         1 == e.to && 0 == live.data.length && data.getListItems($.activity, live, 0, 0, categoryId, 0, 0, "Videos");
-        2 == e.to && 0 == campaigns.children.length && data.getCampaigns($.activity, campaigns, 0, 0, categoryId);
-        3 == e.to && 0 == upcomming.data.length && data.getListItems($.activity, upcomming, 0, 0, categoryId, 0, 0, "Events");
-        4 == e.to && 0 == artists.children.length && data.getArtists($.activity, artists, 0, 0, categoryId);
+        2 == e.to && 0 == artists.children.length && data.getArtists($.activity, artists, 0, 0, categoryId);
     });
     categories.addEventListener("click", function(e) {
         var title = "LiveOnStage";
@@ -128,16 +108,6 @@ function Controller() {
     live.addEventListener("click", function(e) {
         if (e.source.link > 0) {
             var win = Alloy.createController("viewVideo", e.source.link).getView();
-            win.fullscreen = false;
-            win.open({
-                activityEnterAnimation: Ti.Android.R.anim.fade_in,
-                activityExitAnimation: Ti.Android.R.anim.fade_out
-            });
-        }
-    });
-    upcomming.addEventListener("click", function(e) {
-        if (e.source.link > 0) {
-            var win = Alloy.createController("viewEvent", e.source.link).getView();
             win.fullscreen = false;
             win.open({
                 activityEnterAnimation: Ti.Android.R.anim.fade_in,

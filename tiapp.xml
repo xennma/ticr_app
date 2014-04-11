@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <id>com.liveonstage.liveonstage</id>
-    <name>LiveOnStage</name>
+    <id>com.liveonstage.ticr</id>
+    <name>Ticr</name>
     <version>1.0.2</version>
     <publisher>Xenn Marketing</publisher>
     <url>http://xenn.com</url>
-    <description>LiveOnStage.com - The place where artists can fund their projects.</description>
+    <description>Ticr.com - The place where artists can fund their projects.</description>
     <copyright>2013 by Xenn Marketing</copyright>
     <icon>icon.png</icon>
     <persistent-wifi>false</persistent-wifi>

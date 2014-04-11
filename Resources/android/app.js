@@ -1,8 +1,8 @@
 var Alloy = require("alloy"), _ = Alloy._, Backbone = Alloy.Backbone;
 
-Alloy.Globals.NAME_PAGE = "LiveOnStage";
+Alloy.Globals.NAME_PAGE = "Ticr";
 
-Alloy.Globals.DOMAIN = "http://www.liveonstage.com/";
+Alloy.Globals.DOMAIN = "http://www.liveonstage.com/ticr/";
 
 Alloy.Globals.URL_BASE = "index.php?option=com_mobile";
 

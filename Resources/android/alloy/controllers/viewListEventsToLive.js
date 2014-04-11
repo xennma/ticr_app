@@ -62,37 +62,6 @@ function Controller() {
     $.__views.container.add($.__views.table);
     exports.destroy = function() {};
     _.extend($, $.__views);
-    var args = arguments[0] || {};
-    var data = require("dataExport");
-    var timezoneBand = 0;
-    var utm = "00:00,0";
-    var actionBar = require("actionBarButtoms");
-    actionBar.putActionBar($.viewListEventsToLive, args.authorname + " - " + args.view, false, null, $.container, null, true);
-    $.messageTurn.hide();
-    if (Ti.App.Properties.getString("user_id") && args.author == Ti.App.Properties.getString("user_id")) {
-        $.container.top = "11%";
-        $.messageTurn.show();
-        timezoneBand = 1;
-        utm = Ti.App.Properties.getString("timezone");
-    }
-    data.getListOfProfile($.activity, $.table, 0, 0, args.author, args.view, timezoneBand, utm);
-    $.table.addEventListener("click", function(e) {
-        if (e.source.link > 0) {
-            var view = "viewCampaign";
-            "Events" == args.view && (view = "viewEvent");
-            "Videos" == args.view && (view = "viewVideo");
-            var win = Alloy.createController(view, e.source.link).getView();
-            win.fullscreen = false;
-            win.open({
-                activityEnterAnimation: Ti.Android.R.anim.fade_in,
-                activityExitAnimation: Ti.Android.R.anim.fade_out
-            });
-        }
-    });
-    $.table.footerView = Ti.UI.createView({
-        height: 1,
-        backgroundColor: "transparent"
-    });
     _.extend($, exports);
 }
 
