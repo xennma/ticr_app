@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+apiversion: 2
+description: My module
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2013 by Your Company
+
+
+# these should not be edited
+name: liveStreaming
+moduleid: com.xenn.liveStreaming
+guid: 5c8e6d61-4205-4f42-8499-23ff2131fec9
+platform: android
+minsdk: 3.1.3.GA

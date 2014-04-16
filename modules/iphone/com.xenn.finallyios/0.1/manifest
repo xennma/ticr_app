@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+apiversion: 2
+description: My module
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2013 by Your Company
+
+
+# these should not be edited
+name: finallyIOS
+moduleid: com.xenn.finallyIOS
+guid: 3fe7c77b-55c4-40e8-ae83-579a48bcaf4b
+platform: iphone
+minsdk: 3.1.3.GA

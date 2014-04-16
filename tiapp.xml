@@ -46,7 +46,6 @@
     </mobileweb>
     <modules>
         <module platform="android">net.bajawa.pager</module>
-        <module platform="iphone">ti.paypal</module>
         <module platform="android" version="2.2.3">ti.paypal</module>
         <module platform="iphone">com.xenn.finallyios</module>
         <module platform="android">com.xenn.livestreaming</module>
@@ -59,7 +58,7 @@
         <target device="mobileweb">true</target>
         <target device="tizen">false</target>
     </deployment-targets>
-    <sdk-version>3.2.0.GA</sdk-version>
+    <sdk-version>3.2.1.GA</sdk-version>
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>
