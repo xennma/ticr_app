@@ -1,4 +1,0 @@
-// this is a generated file - DO NOT EDIT
-
-COM_XENN_FINALLYIOS_OTHER_LDFLAGS=$(inherited) -framework CoreVideo -framework CoreMedia -framework CoreFoundation -framework AVFoundation -framework AudioToolbox -framework CFNetwork -framework Security -framework UIKit -framework CoreGraphics -framework CoreData
-OTHER_LDFLAGS=$(inherited) $(COM_XENN_FINALLYIOS_OTHER_LDFLAGS) 

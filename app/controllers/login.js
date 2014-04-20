@@ -6,15 +6,7 @@ var timezoneGpsUTC = '';
 $.load.show(); 
 $.pickTimezone.hide() ;
 var user_id = 0;
-var dialog = Ti.UI.createAlertDialog({
-         buttonNames: [ "Go to My Events", "Go Live Now" ],
-         message: "What do you want to do?",
-         title: "Login successful!"
-     });
-
-
-      
-     
+    
      
 var actionBar = require('actionBarButtoms'); 
 actionBar.putActionBar($.login,"Login",false,null,$.container,null,false);
@@ -55,7 +47,9 @@ $.buttonLogin.addEventListener('click',function(e) {
 	        	Ti.App.Properties.setString('name', response['user'].name);	
 	        	Ti.App.Properties.setString('timezone', timezone); 
 	        	$.activity.hide();
-        		dialog.show();	 
+        		//dialog.show();	
+        		openWindowsLoginSussess();
+        		 
         	} else {
         		
         		var dialog1 = Ti.UI.createAlertDialog({
@@ -96,7 +90,9 @@ $.buttonLogin.addEventListener('click',function(e) {
 		        	Ti.App.Properties.setString('name', response['user'].name);	
 		        	Ti.App.Properties.setString('timezone', timezone);   
 		        	$.activity.hide();     	
-		        	dialog.show();	
+		        	//dialog.show();	
+		        	openWindowsLoginSussess();
+		        	
 		        	}
 		        }
 		     });      
@@ -156,24 +152,15 @@ $.buttonLogin.addEventListener('click',function(e) {
 
 function openWindowsLoginSussess()
 {	
-   var args = {       		
-	    author: Ti.App.Properties.getString('user_id'),
-	    authorname: Ti.App.Properties.getString('name'),
-	    view: 'Events'
-	};        	
-    var win = Alloy.createController('viewListEventsToLive', args).getView();
-    win.fullscreen= false;	
-	if(Ti.Platform.osname == 'android')
-	{
-		win.open({
-			activityEnterAnimation: Ti.Android.R.anim.fade_in,
-			activityExitAnimation: Ti.Android.R.anim.fade_out
-		});	
-	} else {
-		var t = Ti.UI.iPhone.AnimationStyle.CURL_UP;
-		win.open({transition:t});
-	}	
-	$.login.close();     	  
+   var win = Alloy.createController("modalViewVideoLive").getView();
+             win.open({
+                 modal: true,
+                 navBarHidden: true,
+                 modalTransitionStyle: Ti.UI.iPhone.MODAL_TRANSITION_STYLE_COVER_VERTICAL,
+                 modalStyle: Ti.UI.iPhone.MODAL_PRESENTATION_FULLSCREEN
+             });
+   $.login.close();
+	   	  
 }
 
 
@@ -392,16 +379,5 @@ $.buttonTimezone.addEventListener('click',function(e) {
 	$.pickTimezone.show();
 });
 
-dialog.addEventListener("click", function(e) {
-         if (1 == e.index) {
-             var win = Alloy.createController("modalViewVideoLive").getView();
-             win.open({
-                 modal: true,
-                 navBarHidden: true,
-                 modalTransitionStyle: Ti.UI.iPhone.MODAL_TRANSITION_STYLE_COVER_VERTICAL,
-                 modalStyle: Ti.UI.iPhone.MODAL_PRESENTATION_FULLSCREEN
-             });
-             $.login.close();
-        } else 0 == e.index && openWindowsLoginSussess();
-     });
+
 
