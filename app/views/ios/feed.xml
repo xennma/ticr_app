@@ -25,14 +25,7 @@
 					<Label class="navLabel">Live Shows</Label>
 					<View class="listSeparator"/>
 				</View>
-				<View id="campaigns" class="navItem">
-					<Label class="navLabel">Campaigns</Label>
-					<View class="listSeparator"/>
-				</View>
-				<View id="upcoming" class="navItem">
-					<Label class="navLabel">Upcoming</Label>
-					<View class="listSeparator"/>
-				</View>
+				
 				<View id="artists" class="navItem">
 					<Label class="navLabel">Artists</Label>
 				</View>  
