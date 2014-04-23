@@ -1,6 +1,0 @@
-"/home/fabian/mobile/ticr_app/build/android/gen/com/liveonstage/ticr/ApplicationStylesheet.java"
-"/home/fabian/mobile/ticr_app/build/android/gen/com/liveonstage/ticr/AssetCryptImpl.java"
-"/home/fabian/mobile/ticr_app/build/android/gen/com/liveonstage/ticr/R.java"
-"/home/fabian/mobile/ticr_app/build/android/gen/com/liveonstage/ticr/TicrActivity.java"
-"/home/fabian/mobile/ticr_app/build/android/gen/com/liveonstage/ticr/TicrAppInfo.java"
-"/home/fabian/mobile/ticr_app/build/android/gen/com/liveonstage/ticr/TicrApplication.java"

@@ -144,33 +144,9 @@ function Controller() {
         id: "links"
     });
     $.__views.container.add($.__views.links);
-    $.__views.event = Ti.UI.createView({
-        top: "0",
-        left: "0dp",
-        width: "32%",
-        height: "25dp",
-        id: "event"
-    });
-    $.__views.links.add($.__views.event);
-    $.__views.labelLink = Ti.UI.createLabel({
-        font: {
-            fontSize: "13dp",
-            fontWeight: "bold"
-        },
-        height: "90%",
-        bottom: "8%",
-        width: "98%",
-        borderRadius: 4,
-        backgroundColor: "#745DA8",
-        color: "white",
-        textAlign: "center",
-        text: "Upcoming",
-        id: "labelLink"
-    });
-    $.__views.event.add($.__views.labelLink);
     $.__views.video = Ti.UI.createView({
         top: "0",
-        left: "33%",
+        left: "0dp",
         width: "32%",
         height: "25dp",
         id: "video"
@@ -192,30 +168,6 @@ function Controller() {
         id: "labelLink"
     });
     $.__views.video.add($.__views.labelLink);
-    $.__views.campaign = Ti.UI.createView({
-        top: "0",
-        left: "66%",
-        width: "32%",
-        height: "25dp",
-        id: "campaign"
-    });
-    $.__views.links.add($.__views.campaign);
-    $.__views.labelLink = Ti.UI.createLabel({
-        font: {
-            fontSize: "13dp",
-            fontWeight: "bold"
-        },
-        height: "90%",
-        bottom: "8%",
-        width: "98%",
-        borderRadius: 4,
-        backgroundColor: "#745DA8",
-        color: "white",
-        textAlign: "center",
-        text: "Campaigns",
-        id: "labelLink"
-    });
-    $.__views.campaign.add($.__views.labelLink);
     exports.destroy = function() {};
     _.extend($, $.__views);
     var args = arguments[0] || {};
@@ -264,29 +216,11 @@ function Controller() {
         $.videos.text = responses.num_videos + " videos published.";
         $.views.text = responses.view + " profile views";
         $.activity.hide();
-        $.event.addEventListener("click", function() {
-            var args = {
-                author: author,
-                authorname: responses.name,
-                view: "Events"
-            };
-            $.vp.pause();
-            openWindows(args);
-        });
         $.video.addEventListener("click", function() {
             var args = {
                 author: author,
                 authorname: responses.name,
                 view: "Videos"
-            };
-            $.vp.pause();
-            openWindows(args);
-        });
-        $.campaign.addEventListener("click", function() {
-            var args = {
-                author: author,
-                authorname: responses.name,
-                view: "Campaigns"
             };
             $.vp.pause();
             openWindows(args);

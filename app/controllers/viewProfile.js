@@ -76,15 +76,7 @@ client.onload = function(){
 	$.views.text = responses.view + ' profile views';	
 	$.activity.hide(); 
 	
-	$.event.addEventListener('click', function(e){
-		var args = {       		
-	        			author: author,
-	        			authorname: responses.name,
-	        			view: 'Events'
-	      		};
-	    $.vp.pause();					
-		openWindows(args);		
-	});
+	
 	
 	$.video.addEventListener('click', function(e){
 		var args = {       		
@@ -95,15 +87,7 @@ client.onload = function(){
 		$.vp.pause();					
 		openWindows(args);		
 	});
-	$.campaign.addEventListener('click', function(e){
-		var args = {       		
-	        			author: author,
-	        			authorname: responses.name,
-	        			view: 'Campaigns'
-	      		};						
-		$.vp.pause();					
-		openWindows(args);		
-	});
+	
 };
 client.onerror = function(e){alert('Transmission error: ' + e.error);};
 var params = {

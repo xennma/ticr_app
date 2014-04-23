@@ -16,15 +16,11 @@
 			<Label id="videos"/>
 		</View>	
 		<View id="links">
-			<View id="event">	
-				<Label id="labelLink">Upcoming</Label>
-			</View>
+			
 			<View id="video">	
 				<Label id="labelLink">Videos</Label>
 			</View>
-			<View id="campaign">	
-				<Label id="labelLink">Campaigns</Label>
-			</View>
+			
 		</View>	
 		</View>		
 	</Window>

@@ -226,14 +226,16 @@ $.btnStop.addEventListener('click', function(e) {
 		       // $.btnStop.enabled =  false;	
 		    }  
 			$.activity.hide();
-	        if (1 == live_video) {
+	       /* if (1 == live_video) {
                      var args = {
                          author: Ti.App.Properties.getString("user_id"),
                          authorname: Ti.App.Properties.getString("name"),
                          view: "Events"
                      };
                      var win = Alloy.createController("viewListEventsToLive", args).getView();
-                } else { var win = Alloy.createController("viewEvent", event_id).getView(); }
+                } else { var win = Alloy.createController("viewEvent", event_id).getView(); }*/
+               
+               var win = Alloy.createController('feed', 1).getView();
  	
 			win.fullscreen= false;	
 			if(Ti.Platform.osname == 'android')
