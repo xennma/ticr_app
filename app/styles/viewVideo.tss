@@ -48,7 +48,7 @@
 				bottom:'8%',
 				width: '28%',
 				borderRadius: 4,
-				backgroundColor:'#745DA8',
+				backgroundColor:'#035073',
 				color: 'white',
 				textAlign: 'center'	
 			},
@@ -64,7 +64,7 @@
 		borderRadius: 4,
 		top: '10%',
 		right:'0%',
-		backgroundColor:'#e4473e',
+		backgroundColor:'#0088cc',
 	},
 		"#report": {
 			font: {

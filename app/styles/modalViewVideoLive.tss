@@ -41,7 +41,7 @@
 	bottom:'8%',
 	width: '98%',
 	borderRadius: 4,
-	backgroundColor:'#745DA8',
+	backgroundColor:'#035073',
 	color: 'white',
 	textAlign: 'center'	
 },
@@ -98,9 +98,9 @@
 	width: '98%',
 	borderRadius: 4,
 	backgroundColor:'white',
-	color: '#745DA8',
+	color: '#035073',
 	textAlign: 'center',
-	//borderColor: '#745DA8',
+	//borderColor: '#035073',
 	//borderWidth: 1	
 } 
 

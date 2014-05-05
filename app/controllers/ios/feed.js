@@ -127,7 +127,7 @@ $.videos.addEventListener("click",function(e){
 
 $.artists.addEventListener("click",function(e){
    // aqui habririas la otra ventana 
-  	$.scrollableView.scrollToView(4);
+  	$.scrollableView.scrollToView(2);
 });
 
 
@@ -159,7 +159,7 @@ $.scrollableView.addEventListener("scrollend", function(e){
 	}
      
 
-	if(($.scrollableView.currentPage == 4) && (artists.children.length == 0) )
+	if(($.scrollableView.currentPage == 2) && (artists.children.length == 0) )
 	{
 		data.getArtists($.activity, artists,0,0,categoryId);
 	}

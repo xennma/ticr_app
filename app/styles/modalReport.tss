@@ -33,7 +33,7 @@
 	bottom:'8%',
 	width: '80%',
 	borderRadius: 4,
-	backgroundColor:'#745DA8',
+	backgroundColor:'#035073',
 	color: 'white',
 	textAlign: 'center'	
 },

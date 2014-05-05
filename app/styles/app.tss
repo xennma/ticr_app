@@ -5,7 +5,7 @@
 
 ".menuBarBottomBorder":{
 	height: '2%',
-	backgroundColor: '#e4473e',
+	backgroundColor: '#0088cc',
 	width: '100%',
 	bottom: '0%'
 	},
@@ -101,7 +101,7 @@
 		height: '100%',
 		
 		left: '0%',
-		backgroundColor: '#745DA8',
+		backgroundColor: '#035073',
 		zIndex: 10,
 		borderRadius: 4,
 		backgroundImage: '/bar-stripes.png',
@@ -136,7 +136,7 @@
 	bottom:'8%',
 	width: '98%',
 	borderRadius: 4,
-	backgroundColor:'#745DA8',
+	backgroundColor:'#035073',
 	color: 'white',
 	textAlign: 'center'	
 },

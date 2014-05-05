@@ -3,7 +3,7 @@
 		   	fontSize:'12dp'
 			},		
 		width: '50dp',
-	//	backgroundColor:'#745DA8',
+	//	backgroundColor:'#035073',
 		color: 'white',
 		top: '10dp',
 		height: '35dp',
@@ -15,7 +15,7 @@
 		   	fontSize:'12dp'
 			},		
 		width: '50dp',
-		//backgroundColor:'#745DA8',
+		//backgroundColor:'#035073',
 		color: 'white',
 		top: '50dp',
 		height: '35dp',
@@ -31,7 +31,7 @@
 	bottom:'8%',
 	width: '98%',
 	borderRadius: 4,
-	backgroundColor:'#745DA8',
+	backgroundColor:'#035073',
 	color: 'white',
 	textAlign: 'center'	
 },
@@ -44,7 +44,7 @@
 	bottom:'8%',
 	width: '98%',
 	borderRadius: 4,
-	backgroundColor:'#745DA8',
+	backgroundColor:'#035073',
 	color: 'white',
 	textAlign: 'center'	
 }

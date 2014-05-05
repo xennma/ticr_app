@@ -1,1 +1,0 @@
-/home/fabian/mobile/ticr_app/Resources/iphone/alloy/controllers/login.js

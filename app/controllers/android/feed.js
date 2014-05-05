@@ -31,8 +31,8 @@ var viewPager = module.createViewPager(
 		style: module.SCROLLING,
 		backgroundColor: "#ffffff",
 		backgroundColorSelected: "#f2f2f2",
-		lineColor: "#e4473e",
-		lineColorSelected: "#e4473e",
+		lineColor: "#0088cc",
+		lineColorSelected: "#0088cc",
 		lineHeight: 2,
 		lineHeightSelected: 7,
 		font: {

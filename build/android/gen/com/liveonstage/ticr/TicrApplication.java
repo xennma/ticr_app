@@ -33,14 +33,13 @@ public final class TicrApplication extends TiApplication
 		postAppInfo();
 
 
+	    KrollAssetHelper.setAssetCrypt(new AssetCryptImpl());
+
 
 		V8Runtime runtime = new V8Runtime();
 
 
 		runtime.addExternalModule("net.bajawa.pager", net.bajawa.pager.ViewpagerBootstrap.class);
-	
-
-		runtime.addExternalModule("ti.paypal", ti.paypal.PaypalBootstrap.class);
 	
 
 		runtime.addExternalModule("com.xenn.liveStreaming", com.xenn.liveStreaming.LivestreamingBootstrap.class);
@@ -87,32 +86,6 @@ public final class TicrApplication extends TiApplication
 
 	
 
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
 
 
 		// Custom modules
@@ -124,19 +97,6 @@ public final class TicrApplication extends TiApplication
 			"viewpager", "net.bajawa.pager", "9bd7e8dd-1b64-4f54-a67d-225bd74eb7f8", "1.2.3",
 			"ViewPager module", "Tomas Persson", "Buy it and get love my love, share it and DIE!",
 			"Copyright (c) 2012 Tomas Persson, All rights reserved");
-
-		
-
-		
-
-		KrollModule.addCustomModuleInfo(moduleInfo);
-	
-		
-
-		moduleInfo = new KrollModuleInfo(
-			"paypal", "ti.paypal", "806d55c1-4ff6-4b11-951a-115af5053252", "2.2.3",
-			"PayPal module for PayPal transactions", "Marshall Culpepper", "Apache License, Version 2.0",
-			"Copyright (c) 2010-2013 by Appcelerator, Inc.");
 
 		
 

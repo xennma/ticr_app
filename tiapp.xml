@@ -5,7 +5,7 @@
     <version>1.0.2</version>
     <publisher>Xenn Marketing</publisher>
     <url>http://xenn.com</url>
-    <description>Ticr.com - The place where artists can fund their projects.</description>
+    <description>Ticr.com - Perform your best skills live!</description>
     <copyright>2013 by Xenn Marketing</copyright>
     <icon>icon.png</icon>
     <persistent-wifi>false</persistent-wifi>
@@ -32,7 +32,7 @@
     <android xmlns:android="http://schemas.android.com/apk/res/android">
         <manifest android:installLocation="auto">
             <uses-sdk android:maxSdkVersion="19"
-                android:minSdkVersion="14" android:targetSdkVersion="18"/>
+                android:minSdkVersion="14" android:targetSdkVersion="19"/>
             <application android:theme="@style/Theme.Liveonbar"/>
         </manifest>
     </android>
@@ -46,7 +46,6 @@
     </mobileweb>
     <modules>
         <module platform="android">net.bajawa.pager</module>
-        <module platform="android" version="2.2.3">ti.paypal</module>
         <module platform="iphone">com.xenn.finallyios</module>
         <module platform="android">com.xenn.livestreaming</module>
     </modules>
@@ -55,10 +54,10 @@
         <target device="ipad">true</target>
         <target device="android">true</target>
         <target device="blackberry">false</target>
-        <target device="mobileweb">true</target>
+        <target device="mobileweb">false</target>
         <target device="tizen">false</target>
     </deployment-targets>
-    <sdk-version>3.2.1.GA</sdk-version>
+    <sdk-version>3.2.2.GA</sdk-version>
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>

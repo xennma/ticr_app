@@ -1,5 +1,5 @@
-var red = '#900A05';
-var brightred = '#B00C07';
+var red = '#2E2E8A';
+var brightred = '#0060A0';
 var black = '#000000';
 var gray = '#888888';
 var width = (Ti.Platform.displayCaps.platformWidth-30)/2;
@@ -164,7 +164,7 @@ $.overlay.setBackgroundGradient({
         type: 'linear',
         startPoint: { x: '50%', y: '0%' },
         endPoint: { x: '50%', y: '100%' },
-        colors: [ { color: '#282139', offset: 0.25}, { color: '#534377', offset: 0.45 }, { color: '#745DA8', offset: 0.6 } ],
+        colors: [ { color: '#282139', offset: 0.25}, { color: '#335CAD', offset: 0.45 }, { color: '#2E5CB8', offset: 0.6 } ],
     
 });	
 

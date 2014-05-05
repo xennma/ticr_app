@@ -2,14 +2,14 @@
 	<Window id="index">
 		<View id="Navigation">
 			
-			<ImageView id="logo" image="/images/logo-liveon.png"/>
+			<ImageView id="logo" image="/images/ticr-logo.png"/>
     		<View class="navigationBottomBorder"/>
     	</View>
 		<View id="banner">
 			<View id="overlay">
 				<View id="gradient"/>
 			</View>
-			<Label class="promo">Promoting your music with live video</Label>
+			<Label class="promo">Promoting your skills with live video</Label>
 		</View>
 		<View id="buttoncontainer">
 			<View class="buttonsTopBorder"/>

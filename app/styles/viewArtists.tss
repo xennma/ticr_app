@@ -63,7 +63,7 @@
 		height: '100%',
 		width: '90%',
 		left: '0%',
-		backgroundColor: '#745DA8',
+		backgroundColor: '#035073',
 		zIndex: 10,
 		borderRadius: 4,
 		backgroundImage: '/bar-stripes.png',

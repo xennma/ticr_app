@@ -38,7 +38,7 @@
 	},
 ".menuBarBottomBorder":{
 	height: '2%',
-	backgroundColor: '#e4473e',
+	backgroundColor: '#0088cc',
 	width: '100%',
 	bottom: '0%'
 	},
@@ -52,26 +52,16 @@
 	width: '20%',
 	left:'20%'
 	},
-"#campaigns":{
-	width: '20%',
-	bottom: '0%',
-	left:'40%'
-	},
-"#upcoming":{
-	width: '20%',
-	bottom: '0%',
-	left:'60%'
-	},
 
 "#artists":{
 	width: '20%',
 	bottom: '0%',
-	left:'80%'
+	left:'40%'
 	},
 "#barra": {
 	height:'100%',
 	width: '20%',
-	backgroundColor: '#e4473e',
+	backgroundColor: '#0088cc',
 	bottom: '0%',
 	left: '0%'
 	},

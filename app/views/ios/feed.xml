@@ -45,8 +45,6 @@
         <ScrollableView id="scrollableView">
             <View id="categoriesScreen"><ActivityIndicator id="activity"/></View>
             <View id="videosScreen"><ActivityIndicator id="activity"/></View>
-            <View id="campaignsScreen"><ActivityIndicator id="activity"/></View>
-            <View id="upcomingScreen"><ActivityIndicator id="activity"/></View>
             <View id="artistsScreen"><ActivityIndicator id="activity"/></View>
            
         </ScrollableView>

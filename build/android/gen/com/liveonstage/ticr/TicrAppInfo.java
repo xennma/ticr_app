@@ -17,7 +17,7 @@ public final class TicrAppInfo implements ITiAppInfo
 	}
 
 	public String getDeployType() {
-		return "development";
+		return "test";
 	}
 
 	public String getId() {
@@ -45,7 +45,7 @@ public final class TicrAppInfo implements ITiAppInfo
 	}
 
 	public String getDescription() {
-		return "Ticr.com - The place where artists can fund their projects.";
+		return "Ticr.com - Perform your best skills live!";
 	}
 
 	public String getIcon() {

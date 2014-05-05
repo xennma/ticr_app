@@ -1,0 +1,6 @@
+"/Users/lucheins/Desktop/Mobile Development/ticr_app/build/android/gen/com/liveonstage/ticr/ApplicationStylesheet.java"
+"/Users/lucheins/Desktop/Mobile Development/ticr_app/build/android/gen/com/liveonstage/ticr/AssetCryptImpl.java"
+"/Users/lucheins/Desktop/Mobile Development/ticr_app/build/android/gen/com/liveonstage/ticr/R.java"
+"/Users/lucheins/Desktop/Mobile Development/ticr_app/build/android/gen/com/liveonstage/ticr/TicrActivity.java"
+"/Users/lucheins/Desktop/Mobile Development/ticr_app/build/android/gen/com/liveonstage/ticr/TicrAppInfo.java"
+"/Users/lucheins/Desktop/Mobile Development/ticr_app/build/android/gen/com/liveonstage/ticr/TicrApplication.java"

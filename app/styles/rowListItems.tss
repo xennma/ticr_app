@@ -68,7 +68,7 @@
 			  fontWeight: 'bold'
 		},	
 	borderRadius: 4,	
-	backgroundColor:'#e4473e',
+	backgroundColor:'#0088cc',
 	color: 'white',
 	textAlign: 'center',
 	left:'3%',

@@ -1,8 +1,8 @@
 "#Navigation":{
 	height: '8%',
 	top: '0%',
-	backgroundColor: '#16011e',
-	backgroundImage: '/light-diagonal-strips.png',
+	backgroundColor: '#f5f5f5',
+	/*backgroundImage: '/light-diagonal-strips.png',*/
 	backgroundRepeat: true	
 },
 ".navigationBottomBorder":{
@@ -52,7 +52,7 @@
 	left: '2%',
 	borderWidth: 1,
 	borderColor: '#d0d0d0',
-	backgroundColor: '#e4473e'
+	backgroundColor: '#0088cc'
 	
 },
 ".first-container": {
@@ -66,7 +66,7 @@
 	left: '2%',
 	borderWidth: 1,
 	borderColor: '#d0d0d0',
-	backgroundColor: '#e4473e'
+	backgroundColor: '#0088cc'
 		
 },
 "#logo":{

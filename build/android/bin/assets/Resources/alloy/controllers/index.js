@@ -1,1 +1,0 @@
-/home/fabian/mobile/ticr_app/Resources/android/alloy/controllers/index.js

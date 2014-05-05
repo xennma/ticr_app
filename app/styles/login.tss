@@ -35,7 +35,7 @@
 			},		
 		width: '45%',
 		borderRadius: 4,
-		backgroundColor:'#745DA8',
+		backgroundColor:'#035073',
 		color: 'white',
 		bottom: '5%',
 		height: '10%',
@@ -98,7 +98,7 @@
 "#buttonTimezone":{
 		width: '25%',
 		borderRadius: 4,
-		backgroundColor:'#745DA8',
+		backgroundColor:'#035073',
 		color: 'white',
 		bottom: '5%',
 		height: '30%',

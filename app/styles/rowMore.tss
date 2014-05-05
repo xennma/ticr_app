@@ -12,7 +12,7 @@
 	height: '90%',
 	width: '90%',
 	borderRadius: 5,
-	backgroundColor:'#745DA8',
+	backgroundColor:'#035073',
 	color: 'white',
 	textAlign: 'center'
 },

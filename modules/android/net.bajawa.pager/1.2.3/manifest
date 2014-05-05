@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.2.3
+apiversion: 2
+description: ViewPager module
+author: Tomas Persson
+license: Buy it and get love my love, share it and DIE!
+copyright: Copyright (c) 2012 Tomas Persson, All rights reserved
+
+
+# these should not be edited
+name: viewpager
+moduleid: net.bajawa.pager
+guid: 9bd7e8dd-1b64-4f54-a67d-225bd74eb7f8
+platform: android
+minsdk: 1.8.1
